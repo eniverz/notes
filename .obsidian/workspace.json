@@ -19,27 +19,52 @@
               "icon": "lucide-table",
               "title": "Paper"
             }
+          },
+          {
+            "id": "662ce50e50338292",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Paper/2605.06388.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "2605.06388"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "c30f0f85faf98106",
         "type": "tabs",
         "children": [
           {
-            "id": "c1f2d228f0afa4e7",
+            "id": "1aef30ef365f7b87",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Paper/PDF/2602.07322v2.pdf",
-                "page": 7,
+                "file": "Paper/PDF/2605.06388v1.pdf",
+                "page": 1,
                 "left": -10,
-                "top": 742,
-                "zoom": 1.5012254901960784
+                "top": 608,
+                "zoom": 1.5012254901960786
               },
               "icon": "lucide-file-text",
-              "title": "2602.07322v2"
+              "title": "2605.06388v1"
             }
           }
         ]
@@ -119,7 +144,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "2501.09747",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -277,10 +302,18 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "1fa1e1d83093f658",
+  "active": "662ce50e50338292",
   "lastOpenFiles": [
-    "Paper/2303.04137.md",
+    "Paper/PDF/2605.06388v1.pdf",
+    "Paper/2605.06388.md",
     "Bases/Paper.base",
+    "Paper/2210.02747.md",
+    "Paper/2403.09631.md",
+    "Paper/PDF/2403.09631v1.pdf",
+    "Paper/2505.11123.md",
+    "Paper/PDF/2505.11123v1.pdf",
+    "Paper/2506.01583.md",
+    "Paper/2303.04137.md",
     "Paper/2602.07322.md",
     "Paper/PDF/2602.07322v2.pdf",
     "Paper/PDF/2602.23408v2.pdf",
@@ -290,31 +323,22 @@
     "Paper/2602.07322v2.pdf",
     "Topic/2602.07322v2.pdf",
     "Bases/Untitled.md",
-    "Paper/2210.02747.md",
     "Paper/2602.23408.md",
-    "Paper/PDF/2602.04215v1.pdf",
     "Paper/2510.23116.md",
     "Paper/2509.09372.md",
     "Paper/2602.04215.md",
     "Paper/2501.09747.md",
-    "Paper/PDF/2501.09747v1.pdf",
     "Lecture/Hands-On Large Model Engineering.md",
-    "Lecture/Slides/CS190C_Lec4.pdf",
     "Lecture/Artificial Intelligence.md",
     "Paper/pi0.6.md",
     "Paper/2602.15397.md",
-    "Paper/2506.01583.md",
     "Paper/2504.16054.md",
     "Paper/2406.09246.md",
     "Paper/1706.03762.md",
     "Paper/1709.07871.md",
     "Lecture/Deep Learning.md",
-    "Paper/2505.11123.md",
     "Knowledges/PyTorch Tensor.md",
     "Knowledges/Neovim.md",
-    "Knowledges/Neovim v0.12.2 Config Folder.md",
-    "Develop/FolderSlice.md",
-    "Paper/2410.24164.md",
     "Assets/Pasted image 20250328215644.png",
     "Assets/Pasted image 20251209085217.jpeg",
     "Assets/Pasted image 20251209084923.jpeg",
