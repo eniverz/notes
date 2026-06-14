@@ -9,6 +9,8 @@ tags:
 done: true
 topic:
   - "[[Coding]]"
+aliases:
+  - EMA
 ---
 # Exponential Moving Average
 
