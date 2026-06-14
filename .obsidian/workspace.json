@@ -52,7 +52,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1aef30ef365f7b87",
+            "id": "990d68263212a1a9",
             "type": "leaf",
             "state": {
               "type": "pdf",
@@ -60,7 +60,7 @@
                 "file": "Paper/PDF/2605.06388v1.pdf",
                 "page": 1,
                 "left": -10,
-                "top": 608,
+                "top": 792,
                 "zoom": 1.5012254901960786
               },
               "icon": "lucide-file-text",
@@ -302,10 +302,10 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "662ce50e50338292",
+  "active": "990d68263212a1a9",
   "lastOpenFiles": [
-    "Paper/PDF/2605.06388v1.pdf",
     "Paper/2605.06388.md",
+    "Paper/PDF/2605.06388v1.pdf",
     "Bases/Paper.base",
     "Paper/2210.02747.md",
     "Paper/2403.09631.md",
