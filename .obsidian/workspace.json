@@ -139,9 +139,9 @@
               "type": "pdf",
               "state": {
                 "file": "Paper/PDF/2506.09985v1.pdf",
-                "page": 4,
+                "page": 5,
                 "left": -10,
-                "top": 397,
+                "top": 764,
                 "zoom": 1.5012254901960784
               },
               "icon": "lucide-file-text",
@@ -384,12 +384,12 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "0a2b1fcae2a6a2f4",
+  "active": "609f6ade8a144705",
   "lastOpenFiles": [
+    "Paper/PDF/2506.09985v1.pdf",
     "Paper/PDF/2506.09985.md",
     "Paper/2010.11929.md",
     "Knowledges/Exponential Moving Average.md",
-    "Paper/PDF/2506.09985v1.pdf",
     "Paper/PDF/2602.15922.md",
     "Paper/PDF/2602.15922v1.pdf",
     "Paper/PDF/2605.06388v1.pdf",
@@ -421,7 +421,6 @@
     "Paper/2504.16054.md",
     "Paper/2406.09246.md",
     "Paper/1706.03762.md",
-    "Paper/1709.07871.md",
     "Assets/Pasted image 20250328215644.png",
     "Assets/Pasted image 20251209085217.jpeg",
     "Assets/Pasted image 20251209084923.jpeg",
