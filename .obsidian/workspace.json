@@ -134,14 +134,13 @@
           {
             "id": "0a2b1fcae2a6a2f4",
             "type": "leaf",
-            "dimension": 33.333333333333336,
             "state": {
               "type": "pdf",
               "state": {
                 "file": "Paper/PDF/2506.09985v1.pdf",
-                "page": 5,
+                "page": 1,
                 "left": -10,
-                "top": 764,
+                "top": 792,
                 "zoom": 1.5012254901960784
               },
               "icon": "lucide-file-text",
