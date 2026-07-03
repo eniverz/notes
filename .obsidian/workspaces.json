@@ -717,31 +717,7 @@
             "type": "tabs",
             "children": [
               {
-                "id": "db44ea357cbc58fb",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Paper/2509.09372.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "2509.09372"
-                }
-              },
-              {
-                "id": "a9aad8ac6abcb983",
+                "id": "1fa1e1d83093f658",
                 "type": "leaf",
                 "state": {
                   "type": "bases",
@@ -754,12 +730,12 @@
                 }
               },
               {
-                "id": "cc8278de35a378c5",
+                "id": "662ce50e50338292",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Paper/2602.04215.md",
+                    "file": "Paper/2605.06388.md",
                     "mode": "source",
                     "source": false,
                     "backlinks": true,
@@ -774,16 +750,16 @@
                     }
                   },
                   "icon": "lucide-file",
-                  "title": "2602.04215"
+                  "title": "2605.06388"
                 }
               },
               {
-                "id": "5fa9fcd967345965",
+                "id": "2c464a9ec2e23196",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Paper/2501.09747.md",
+                    "file": "Paper/PDF/2602.15922.md",
                     "mode": "source",
                     "source": false,
                     "backlinks": true,
@@ -798,7 +774,31 @@
                     }
                   },
                   "icon": "lucide-file",
-                  "title": "2501.09747"
+                  "title": "2602.15922"
+                }
+              },
+              {
+                "id": "609f6ade8a144705",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Paper/PDF/2506.09985.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "2506.09985"
                 }
               }
             ],
@@ -809,39 +809,55 @@
             "type": "tabs",
             "children": [
               {
-                "id": "65aac0bcbcf7f31b",
+                "id": "990d68263212a1a9",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "Paper/PDF/2602.04215v1.pdf",
+                    "file": "Paper/PDF/2605.06388v1.pdf",
                     "page": 1,
                     "left": -10,
-                    "top": 792,
-                    "zoom": 1.5012254901960784
+                    "top": 65,
+                    "zoom": 1.5012254901960786
                   },
                   "icon": "lucide-file-text",
-                  "title": "2602.04215v1"
+                  "title": "2605.06388v1"
                 }
               },
               {
-                "id": "6312c41ad21af116",
+                "id": "375dc9fbd8a61898",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "Paper/PDF/2501.09747v1.pdf",
+                    "file": "Paper/PDF/2602.15922v1.pdf",
                     "page": 1,
                     "left": -10,
-                    "top": 747,
-                    "zoom": 1.5012254901960784
+                    "top": 842,
+                    "zoom": 1.543401716178714
                   },
                   "icon": "lucide-file-text",
-                  "title": "2501.09747v1"
+                  "title": "2602.15922v1"
+                }
+              },
+              {
+                "id": "0a2b1fcae2a6a2f4",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "Paper/PDF/2506.09985v1.pdf",
+                    "page": 1,
+                    "left": -10,
+                    "top": 792,
+                    "zoom": 1.5012254901960786
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "2506.09985v1"
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -918,7 +934,7 @@
                 "state": {
                   "type": "search",
                   "state": {
-                    "query": "2501.09747",
+                    "query": "",
                     "matchingCase": false,
                     "explainSearch": false,
                     "collapseAll": false,
@@ -1076,9 +1092,9 @@
           "workspaces:Manage workspace layouts": false
         }
       },
-      "active": "5fa9fcd967345965",
-      "mtime": "2026-06-10T23:54:25+08:00"
+      "active": "609f6ade8a144705",
+      "mtime": "2026-07-03T16:18:57+08:00"
     }
   },
-  "active": "paper"
+  "active": "note"
 }

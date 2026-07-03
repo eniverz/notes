@@ -4,29 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "95ecdb37eb91446d",
+        "id": "b386e04b263030bf",
         "type": "tabs",
         "children": [
           {
-            "id": "1fa1e1d83093f658",
-            "type": "leaf",
-            "state": {
-              "type": "bases",
-              "state": {
-                "file": "Bases/Paper.base",
-                "viewName": "All Papers"
-              },
-              "icon": "lucide-table",
-              "title": "Paper"
-            }
-          },
-          {
-            "id": "662ce50e50338292",
+            "id": "15b8c037055b21f9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Paper/2605.06388.md",
+                "file": "Knowledges/Git Commit.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -41,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2605.06388"
+              "title": "Git Commit"
             }
           },
           {
-            "id": "2c464a9ec2e23196",
+            "id": "9440d7185aca7ee6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Paper/PDF/2602.15922.md",
+                "file": "Develop/Better-Link-Clicker.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -65,16 +52,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2602.15922"
+              "title": "Better-Link-Clicker"
             }
           },
           {
-            "id": "609f6ade8a144705",
+            "id": "9413012d7141dba6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Paper/PDF/2506.09985.md",
+                "file": "Knowledges/Neovim.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -89,66 +76,83 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2506.09985"
+              "title": "Neovim"
+            }
+          },
+          {
+            "id": "390dd3e89550648e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Knowledges/Server Shell Setup.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Server Shell Setup"
+            }
+          },
+          {
+            "id": "a7fa13ccad2cffb9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Knowledges/Codex.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Codex"
+            }
+          },
+          {
+            "id": "7eb86a10e14e4f24",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Knowledges/Neovim.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Neovim"
             }
           }
         ],
-        "currentTab": 3
-      },
-      {
-        "id": "c30f0f85faf98106",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "990d68263212a1a9",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Paper/PDF/2605.06388v1.pdf",
-                "page": 1,
-                "left": -10,
-                "top": 65,
-                "zoom": 1.5012254901960786
-              },
-              "icon": "lucide-file-text",
-              "title": "2605.06388v1"
-            }
-          },
-          {
-            "id": "375dc9fbd8a61898",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Paper/PDF/2602.15922v1.pdf",
-                "page": 1,
-                "left": -10,
-                "top": 842,
-                "zoom": 1.543401716178714
-              },
-              "icon": "lucide-file-text",
-              "title": "2602.15922v1"
-            }
-          },
-          {
-            "id": "0a2b1fcae2a6a2f4",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Paper/PDF/2506.09985v1.pdf",
-                "page": 1,
-                "left": -18,
-                "top": 792,
-                "zoom": 0.8517156862745098
-              },
-              "icon": "lucide-file-text",
-              "title": "2506.09985v1"
-            }
-          }
-        ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -236,13 +240,11 @@
               "title": "Search"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "989a8de35f3c6aa0",
@@ -276,12 +278,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Develop/QueryTools.md",
+                "file": "Lecture/Discrete Mathematics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from QueryTools"
+              "title": "Outgoing links from SSH Server"
             }
           },
           {
@@ -290,7 +292,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Paper/pi0.md",
+                "file": "Knowledges/Codex.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -300,7 +302,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for pi0"
+              "title": "Backlinks for Codex"
             }
           },
           {
@@ -329,7 +331,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Paper/pi0.md",
+                "file": "Knowledges/Codex.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -352,20 +354,19 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 101,
-                  "scale": 0.6826227075497521,
+                  "scale": 1.1539618883506355,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of pi0"
+              "title": "Graph of Codex"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -373,20 +374,22 @@
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "command-palette:Open command palette": false,
+      "workspaces:Manage workspace layouts": false,
       "bases:Create new base": false,
       "obsidian42-brat:BRAT": false,
       "templater-obsidian:Templater": false,
       "obsidian-git:Open Git source control": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
-      "pdf-plus:PDF++: Toggle auto-paste": false,
-      "workspaces:Manage workspace layouts": false
+      "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "609f6ade8a144705",
+  "active": "a7fa13ccad2cffb9",
   "lastOpenFiles": [
-    "Paper/PDF/2506.09985v1.pdf",
+    "Knowledges/PyTorch Tensor.md",
+    "Knowledges/Codex.md",
     "Paper/PDF/2506.09985.md",
+    "Paper/PDF/2506.09985v1.pdf",
     "Paper/2010.11929.md",
     "Knowledges/Exponential Moving Average.md",
     "Paper/PDF/2602.15922.md",
@@ -419,7 +422,6 @@
     "Paper/2602.15397.md",
     "Paper/2504.16054.md",
     "Paper/2406.09246.md",
-    "Paper/1706.03762.md",
     "Assets/Pasted image 20250328215644.png",
     "Assets/Pasted image 20251209085217.jpeg",
     "Assets/Pasted image 20251209084923.jpeg",
