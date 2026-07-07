@@ -429,7 +429,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Knowledges/PyTorch Tensor.md",
+                    "file": "Knowledges/Codex.md",
                     "mode": "source",
                     "source": false,
                     "backlinks": true,
@@ -444,7 +444,7 @@
                     }
                   },
                   "icon": "lucide-file",
-                  "title": "PyTorch Tensor"
+                  "title": "Codex"
                 }
               },
               {
@@ -612,7 +612,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "Knowledges/PyTorch Tensor.md",
+                    "file": "Knowledges/Codex.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -622,7 +622,7 @@
                     "unlinkedCollapsed": true
                   },
                   "icon": "links-coming-in",
-                  "title": "Backlinks for PyTorch Tensor"
+                  "title": "Backlinks for Codex"
                 }
               },
               {
@@ -651,7 +651,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "Knowledges/PyTorch Tensor.md",
+                    "file": "Knowledges/Codex.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -679,7 +679,7 @@
                     }
                   },
                   "icon": "lucide-git-fork",
-                  "title": "Graph of PyTorch Tensor"
+                  "title": "Graph of Codex"
                 }
               }
             ]
@@ -705,7 +705,7 @@
         }
       },
       "active": "a7fa13ccad2cffb9",
-      "mtime": "2026-05-23T22:12:00+08:00"
+      "mtime": "2026-07-06T22:55:52+08:00"
     },
     "paper": {
       "main": {
@@ -850,7 +850,7 @@
                     "page": 1,
                     "left": -10,
                     "top": 792,
-                    "zoom": 1.5012254901960786
+                    "zoom": 1.5012254901960784
                   },
                   "icon": "lucide-file-text",
                   "title": "2506.09985v1"
@@ -1092,8 +1092,8 @@
           "workspaces:Manage workspace layouts": false
         }
       },
-      "active": "609f6ade8a144705",
-      "mtime": "2026-07-03T16:18:57+08:00"
+      "active": "0a2b1fcae2a6a2f4",
+      "mtime": "2026-07-06T22:56:04+08:00"
     }
   },
   "active": "note"
