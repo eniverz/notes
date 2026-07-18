@@ -704,8 +704,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": false
         }
       },
-      "active": "a7fa13ccad2cffb9",
-      "mtime": "2026-07-06T22:55:52+08:00"
+      "active": "94a8754fa1af570e",
+      "mtime": "2026-07-18T22:11:45+08:00"
     },
     "paper": {
       "main": {
@@ -1096,5 +1096,5 @@
       "mtime": "2026-07-06T22:56:04+08:00"
     }
   },
-  "active": "note"
+  "active": "paper"
 }
