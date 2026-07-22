@@ -102,33 +102,9 @@
               "icon": "lucide-file",
               "title": "RMS"
             }
-          },
-          {
-            "id": "a262bdb67253623e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Paper/2504.16054.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "2504.16054"
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -268,7 +244,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Knowledges/PyTorch Normalization.md",
+                "file": "Knowledges/RMS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -278,7 +254,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for PyTorch Normalization"
+              "title": "Backlinks for RMS"
             }
           },
           {
@@ -307,7 +283,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Knowledges/PyTorch Normalization.md",
+                "file": "Knowledges/RMS.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -335,7 +311,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of PyTorch Normalization"
+              "title": "Graph of RMS"
             }
           }
         ]
@@ -360,13 +336,13 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "640bcf3923af50f9",
+  "active": "89d2df9ce386df12",
   "lastOpenFiles": [
+    "Knowledges/PyTorch Normalization.md",
     "Knowledges/RMS.md",
     "Paper/2504.16054.md",
     "Bases/Projects.base",
     "Paper/PDF/2602.15922.md",
-    "Knowledges/PyTorch Normalization.md",
     "Paper/2410.24164.md",
     "Paper/2010.11929.md",
     "Knowledges/Neovim.md",
