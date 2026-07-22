@@ -20,7 +20,7 @@ topic:
 
 ## Data Level Normalization
 
-在将数据输入神经网络之前, 对输入数据进行预处理是必不可少的步骤. 这一层面的归一化不涉及网络内部的层结构, 而是直接作用于原始数据集.
+在将数据输入神经网络之前, 对输入数据进行预处理是必不可少的步骤. 这一层面的归一化不涉及网络内部的层结构, 而是直接作用于原始数据集. 在 2015 年内部归一化出现之前, 归一化主要就是指这类输入预处理.
 
 ### Min-Max Normalization
 
@@ -63,9 +63,16 @@ def z_score_norm(x):
 
 这是深度学习中最为重要的一类归一化, 它们作为网络层嵌入在模型结构中. 这些方法的区别主要在于计算均值和方差时所聚合的维度不同.
 
+下面只用 PyTorch 张量运算展示最核心的归一化过程, 省略 Running Statistics、可选参数和底层优化等工程细节. 每段代码末尾保留对应的官方 `torch.nn` 层作为实际使用时的对照.
+
+```python
+import torch
+import torch.nn as nn
+```
+
 ### Batch Normalization
 
-Batch Normalization (BN) 在 Batch 维度 $(N)$ 以及空间维度 $(H, W)$ 上聚合, 对每个通道 $(C)$ 独立计算统计量. 它是 CNN 时代的标配.
+Ioffe 和 Szegedy 在 2015 年提出 Batch Normalization (BN), 首次将归一化系统性地引入网络内部. BN 在 Batch 维度 $(N)$ 以及空间维度 $(H, W)$ 上聚合, 对每个通道 $(C)$ 独立计算统计量, 并通过可学习参数 $\gamma$ 和 $\beta$ 恢复表达能力. 它是 CNN 时代的标配.
 
 $$
 \hat{x} = \frac{x - \mu_B}{\sqrt{\sigma_B^2 + \epsilon}} \cdot \gamma + \beta
@@ -73,17 +80,35 @@ $$
 
 | Advantages | Disadvantages |
 | :--- | :--- |
-| 1. 极大地加速收敛速度, 允许使用更大的学习率.<br>2. 引入了与 Batch 相关的随机噪声, 起到了轻微的正则化效果, 降低了过拟合风险.<br>3. 对权重初始化的敏感度降低. | 1. 高度依赖 Batch Size. 当 Batch Size 较小 (如 < 8) 时, 统计量估算不准, 导致模型性能崩溃.<br>2. 在 RNN 和 Transformer 等处理变长序列的模型中难以应用.<br>3. 训练和推理阶段计算逻辑不一致 (训练用 Batch 统计量, 推理用 Running 统计量). |
+| 1. 极大地加速收敛速度, 允许使用更大的学习率.<br>2. 引入了与 Batch 相关的随机噪声, 起到了轻微的正则化效果, 降低了过拟合风险.<br>3. 对权重初始化的敏感度降低.<br>4. 部署方案成熟, 推理时通常可融合进相邻层. | 1. 高度依赖 Batch Size. 当 Batch Size 较小 (如 < 8) 时, 统计量估算不准, 导致模型性能崩溃.<br>2. 在 RNN 和 Transformer 等处理变长序列的模型中难以应用.<br>3. 训练和推理阶段计算逻辑不一致 (训练用 Batch 统计量, 推理用 Running 统计量). |
+
+下面只展示 BN 在训练阶段使用当前 Batch 统计量的核心计算. 推理阶段所需的 Running Statistics 由 `nn.BatchNorm2d` 负责维护.
 
 ```python
-import torch.nn as nn
-# (N, C, H, W)
-bn = nn.BatchNorm2d(num_features=64)
+class SimpleBatchNorm2d(nn.Module):
+    def __init__(self, channels, eps=1e-5):
+        super().__init__()
+        self.eps = eps
+        self.gamma = nn.Parameter(torch.ones(channels))
+        self.beta = nn.Parameter(torch.zeros(channels))
+
+    def forward(self, x):
+        mean = x.mean(dim=(0, 2, 3), keepdim=True)
+        var = x.var(dim=(0, 2, 3), correction=0, keepdim=True)
+        x_hat = (x - mean) * torch.rsqrt(var + self.eps)
+        return (
+            x_hat * self.gamma.view(1, -1, 1, 1)
+            + self.beta.view(1, -1, 1, 1)
+        )
+
+
+# PyTorch 内置实现
+bn = nn.BatchNorm2d(64)
 ```
 
 ### Layer Normalization
 
-Layer Normalization (LN) 放弃了 Batch 维度, 转而在特征维度上进行归一化. 对于 NLP 任务, 它在 Embedding 维度上聚合.
+Ba 等人在 2016 年提出 Layer Normalization (LN), 以解决 BN 对 Batch Size 的依赖以及难以处理变长序列的问题. LN 放弃了 Batch 维度, 转而在每个样本的特征维度上进行归一化; 对于 NLP 任务, 它通常在 Embedding 维度上聚合.
 
 $$
 \mu_L = \frac{1}{D} \sum_{i=1}^{D} x_i
@@ -93,34 +118,84 @@ $$
 | :--- | :--- |
 | 1. 计算完全独立于 Batch Size, 单条数据即可归一化.<br>2. 完美适用于 RNN 和 Transformer 等变长序列模型.<br>3. 训练和推理阶段的行为完全一致, 实现简单. | 1. 在卷积神经网络 (CNN) 中表现通常不如 BN, 因为它破坏了通道间的特征独立性.<br>2. 缺乏 BN 那种引入噪声带来的正则化效应, 可能更容易过拟合. |
 
+下面以 Transformer 中最常见的“归一化最后一个特征维度”为例.
+
 ```python
-# (N, Sequence_Length, Embedding_Dim)
+class SimpleLayerNorm(nn.Module):
+    def __init__(self, dim, eps=1e-5):
+        super().__init__()
+        self.eps = eps
+        self.gamma = nn.Parameter(torch.ones(dim))
+        self.beta = nn.Parameter(torch.zeros(dim))
+
+    def forward(self, x):
+        mean = x.mean(dim=-1, keepdim=True)
+        var = x.var(dim=-1, correction=0, keepdim=True)
+        x_hat = (x - mean) * torch.rsqrt(var + self.eps)
+        return x_hat * self.gamma + self.beta
+
+
+# 输入形状: (N, Sequence_Length, Embedding_Dim)
 ln = nn.LayerNorm(normalized_shape=512)
 ```
 
 ### Instance Normalization
 
-Instance Normalization (IN) 在每个样本的每个通道 $(H, W)$ 上独立计算统计量. 它既不跨 Batch, 也不跨 Channel.
+Ulyanov 等人在 2016 年面向风格迁移提出 Instance Normalization (IN). 它在每个样本的每个通道 $(H, W)$ 上独立计算统计量, 既不跨 Batch, 也不跨 Channel, 因而能够弱化原图的对比度和亮度等风格统计.
 
 | Advantages | Disadvantages |
 | :--- | :--- |
 | 1. 能够归一化掉图像的对比度和亮度等风格信息, 使得模型专注于内容结构.<br>2. 在风格迁移 (Style Transfer) 和图像生成任务中效果显著. | 1. 丢弃了图像的全局统计信息, 对于图像分类等判别式任务会造成信息损失, 导致精度下降.<br>2. 仅适用于特定的视觉生成领域, 通用性较差. |
 
+InstanceNorm 的基本形式不需要跨样本统计, 也不需要维护 Running Statistics.
+
 ```python
-# (N, C, H, W)
-in_norm = nn.InstanceNorm2d(num_features=64)
+class SimpleInstanceNorm2d(nn.Module):
+    def __init__(self, eps=1e-5):
+        super().__init__()
+        self.eps = eps
+
+    def forward(self, x):
+        mean = x.mean(dim=(2, 3), keepdim=True)
+        var = x.var(dim=(2, 3), correction=0, keepdim=True)
+        return (x - mean) * torch.rsqrt(var + self.eps)
+
+
+# PyTorch 默认 affine=False, track_running_stats=False
+in_norm = nn.InstanceNorm2d(64)
 ```
 
 ### Group Normalization
 
-Group Normalization (GN) 是 BN 和 LN 的折中方案. 它将通道 $C$ 分成 $G$ 个组, 在组内计算统计量.
+He 等人在 2018 年针对小 Batch 视觉任务提出 Group Normalization (GN). 它是 LN 和 IN 之间的折中方案, 将通道 $C$ 分成 $G$ 个组并在组内计算统计量; 当 $G=1$ 时接近 LN, 当 $G=C$ 时等价于 IN.
 
 | Advantages | Disadvantages |
 | :--- | :--- |
-| 1. 解决了小 Batch Size 问题, 即使 Batch Size 为 1 也能稳定训练.<br>2. 在目标检测和分割等高分辨率图像任务中表现优异.<br>3. 计算不依赖 Batch, 推理和训练一致. | 1. 引入了额外的超参数 (Group Number), 需要针对任务进行调整.<br>2. 在大 Batch Size 的分类任务上, 最终精度通常仍略低于 BN. |
+| 1. 解决了小 Batch Size 问题, 即使 Batch Size 为 1 也能稳定训练.<br>2. 在目标检测和分割等高分辨率图像任务中表现优异.<br>3. 计算不依赖 Batch, 推理和训练一致. | 1. 引入了额外的超参数 (Group Number), 需要针对任务进行调整.<br>2. 在大 Batch Size 的分类任务上, 最终精度通常仍略低于 BN.<br>3. 推理时通常无法像 BN 那样直接融合进卷积层. |
+
+GroupNorm 的关键是先把通道拆成 $G$ 组, 再对每组内的通道和所有空间维度共同计算统计量.
 
 ```python
-# (N, C, H, W), divide 64 channels into 8 groups
+class SimpleGroupNorm(nn.Module):
+    def __init__(self, num_groups, num_channels, eps=1e-5):
+        super().__init__()
+        self.num_groups = num_groups
+        self.num_channels = num_channels
+        self.eps = eps
+        self.gamma = nn.Parameter(torch.ones(num_channels))
+        self.beta = nn.Parameter(torch.zeros(num_channels))
+
+    def forward(self, x):
+        grouped = x.reshape(x.shape[0], self.num_groups, -1)
+        mean = grouped.mean(dim=-1, keepdim=True)
+        var = grouped.var(dim=-1, correction=0, keepdim=True)
+        x_hat = ((grouped - mean) * torch.rsqrt(var + self.eps)).reshape_as(x)
+
+        shape = (1, self.num_channels) + (1,) * (x.ndim - 2)
+        return x_hat * self.gamma.view(shape) + self.beta.view(shape)
+
+
+# 将 64 个通道划分为 8 组
 gn = nn.GroupNorm(num_groups=8, num_channels=64)
 ```
 
@@ -130,7 +205,7 @@ gn = nn.GroupNorm(num_groups=8, num_channels=64)
 
 ### RMSNorm
 
-[[RMS|Root Mean Square]] Layer Normalization (RMSNorm) 去除了 LN 中的 Mean Centering (减去均值) 操作, 仅保留均方根进行缩放.
+Zhang 等人在 2019 年提出 [[RMS|Root Mean Square]] Layer Normalization (RMSNorm), 对 LN 进行简化: 去除 Mean Centering (减去均值) 操作, 仅保留均方根缩放.
 
 $$
 \bar{x}_i = \frac{x_i}{\text{RMS}(x)} g_i
@@ -140,14 +215,22 @@ $$
 | :--- | :--- |
 | 1. 减少了计算量 (不需要计算均值), 提升了训练和推理速度.<br>2. 在深层网络 (Deep Networks) 中数值稳定性更好, 梯度流更平滑.<br>3. 现代大模型 (Llama, PaLM) 的首选方案. | 1. 理论上丧失了平移不变性 (Shift Invariance), 虽然在 LLM 实践中证明这并不重要.<br>2. 需要特定的算子优化才能发挥最大的速度优势. |
 
+现代 PyTorch 已提供 `nn.RMSNorm`. 与 LayerNorm 相比, 实现中不计算均值, 也没有可学习的偏移参数.
+
 ```python
-class RMSNorm(nn.Module):
+class SimpleRMSNorm(nn.Module):
     def __init__(self, dim, eps=1e-8):
         super().__init__()
-        self.scale = nn.Parameter(torch.ones(dim))
         self.eps = eps
+        self.weight = nn.Parameter(torch.ones(dim))
+
     def forward(self, x):
-        return x * torch.rsqrt(x.pow(2).mean(-1, keepdim=True) + self.eps) * self.scale
+        rms = torch.sqrt(x.pow(2).mean(dim=-1, keepdim=True) + self.eps)
+        return x / rms * self.weight
+
+
+# PyTorch 内置实现
+rms_norm = nn.RMSNorm(512)
 ```
 
 ## Conditional and Adaptive Normalizations
@@ -156,27 +239,69 @@ class RMSNorm(nn.Module):
 
 ### AdaLN-Zero
 
-AdaLN-Zero (Adaptive Layer Norm with Zero Initialization) 是 DiT (Diffusion Transformer) 架构的核心. 它根据条件向量动态生成 Scale ($\gamma$) 和 Shift ($\beta$), 并且使用零初始化策略.
+AdaLN 首先将 LN 中固定的 Scale ($\gamma$) 和 Shift ($\beta$) 改为由条件向量动态生成; AdaLN-Zero 则在此基础上加入零初始化. Peebles 等人在 2022 年的 DiT (Diffusion Transformer) 中采用这一设计, 使残差块在训练初期接近恒等映射.
 
 $$
 \text{AdaLN}(x, c) = (1 + \gamma(c)) \cdot \text{Norm}(x) + \beta(c)
 $$
 
-| Advantages | Disadvantages |
-| :--- | :--- |
-| 1. 零初始化使得整个残差块在训练初期表现为恒等映射 (Identity), 极大地稳定了深层模型的训练.<br>2. 能够根据时间步和文本提示灵活调节每一层的特征分布.<br>3. 是目前 SOTA 扩散模型生成的关键技术. | 1. 引入了额外的 MLP 模块来预测参数, 略微增加了参数量.<br>2. 需要精心设计的初始化策略, 否则容易导致训练发散. |
+| Advantages                                                                                                        | Disadvantages                                                    |
+| :---------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------- |
+| 1. 零初始化使得整个残差块在训练初期表现为恒等映射 (Identity), 极大地稳定了深层模型的训练.<br>2. 能够根据时间步和文本提示灵活调节每一层的特征分布.<br>3. 是目前 SOTA 扩散模型生成的关键技术. | 1. 引入了额外的 MLP 模块来预测参数, 略微增加了参数量.<br>2. 需要精心设计的初始化策略, 否则容易导致训练发散.<br>3. 主要面向条件生成任务, 不适用于普通判别任务. |
+
+下面只保留 AdaLN-Zero 的三个核心部分: LayerNorm、条件生成的 Shift/Scale/Gate, 以及零初始化的残差门控.
 
 ```python
-class AdaLNZero(nn.Module):
+class SimpleAdaLNZero(nn.Module):
     def __init__(self, dim, cond_dim):
         super().__init__()
         self.norm = nn.LayerNorm(dim, elementwise_affine=False)
-        self.linear = nn.Linear(cond_dim, dim * 2)
-        nn.init.zeros_(self.linear.weight) # 核心: 零初始化
-        nn.init.zeros_(self.linear.bias)
+        self.block = nn.Linear(dim, dim)
+        self.modulation = nn.Linear(cond_dim, 3 * dim)
+        nn.init.zeros_(self.modulation.weight)
+        nn.init.zeros_(self.modulation.bias)
+
     def forward(self, x, c):
-        gamma, beta = self.linear(c).chunk(2, dim=-1)
-        return self.norm(x) * (1 + gamma.unsqueeze(1)) + beta.unsqueeze(1)
+        shift, scale, gate = self.modulation(c).chunk(3, dim=-1)
+        h = self.norm(x) * (1 + scale[:, None]) + shift[:, None]
+        return x + gate[:, None] * self.block(h)
+```
+
+### AdaRMS
+
+2025 年, OpenPI 在 [[2504.16054|pi0.5]] 中采用 AdaRMS. 它可以看作 AdaLN 的 RMSNorm 版本: 将 LayerNorm 替换为不减均值的 RMSNorm, 再由条件向量生成 Scale、Shift 和 Gate. 在 $\pi_{0.5}$ 中, 条件向量来自 Flow Matching 的时间步嵌入, 用于调制 Action Expert.
+
+$$
+\text{AdaRMS}(x,c)
+= \text{RMSNorm}(x) \cdot (1 + \gamma(c)) + \beta(c)
+$$
+
+残差分支进一步使用 $g(c)$ 作为门控:
+
+$$
+y = x + g(c) \cdot F(\text{AdaRMS}(x,c))
+$$
+
+| Advantages                                                                                      | Disadvantages                                                           |
+| :---------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------- |
+| 1. 保留 RMSNorm 不需要计算均值的效率优势.<br>2. 将时间步条件直接注入每个 Transformer Block.<br>3. 调制层零初始化后, 模块初始状态接近恒等映射. | 1. 与 RMSNorm 一样不具备平移不变性.<br>2. 需要额外的条件映射层, 主要适用于条件生成和 Flow Matching 模型. |
+
+```python
+class SimpleAdaRMS(nn.Module):
+    def __init__(self, dim, cond_dim, eps=1e-8):
+        super().__init__()
+        self.eps = eps
+        self.block = nn.Linear(dim, dim)
+        self.modulation = nn.Linear(cond_dim, 3 * dim)
+        nn.init.zeros_(self.modulation.weight)
+        nn.init.zeros_(self.modulation.bias)
+
+    def forward(self, x, c):
+        rms = torch.sqrt(x.pow(2).mean(dim=-1, keepdim=True) + self.eps)
+        normalized = x / rms
+        scale, shift, gate = self.modulation(c).chunk(3, dim=-1)
+        h = normalized * (1 + scale[:, None]) + shift[:, None]
+        return x + gate[:, None] * self.block(h)
 ```
 
 ## Weight Based Normalization
@@ -185,7 +310,7 @@ class AdaLNZero(nn.Module):
 
 ### Spectral Normalization
 
-Spectral Normalization (SN) 将权重矩阵除以其最大的奇异值 (谱范数).
+Miyato 等人在 2018 年为稳定 GAN 判别器训练提出 Spectral Normalization (SN). 与归一化激活值的方法不同, SN 直接将权重矩阵除以其最大的奇异值 (谱范数), 从而约束网络的 Lipschitz 常数.
 
 $$
 W_{SN} = \frac{W}{\sigma(W)}
@@ -195,177 +320,49 @@ $$
 | :--- | :--- |
 | 1. 严格限制了网络的 Lipschitz 常数, 防止梯度爆炸.<br>2. 极大地稳定了 GAN (生成对抗网络) 的判别器训练.<br>3. 不需要计算 Batch 统计量. | 1. 计算最大奇异值需要使用幂迭代法 (Power Iteration), 增加了计算开销.<br>2. 可能会过度限制模型的表达能力, 导致生成结果过于平滑. |
 
+最基础的实现可以直接计算权重矩阵的最大奇异值并进行缩放. PyTorch 内置版本为了效率会使用幂迭代近似该值.
+
 ```python
-import torch.nn.utils as utils
-sn_layer = utils.spectral_norm(nn.Linear(32, 64))
+class SimpleSpectralLinear(nn.Linear):
+    def forward(self, x):
+        weight_matrix = self.weight.reshape(self.out_features, -1)
+        sigma = torch.linalg.matrix_norm(weight_matrix, ord=2)
+        weight = self.weight / (sigma + 1e-12)
+        return torch.nn.functional.linear(x, weight, self.bias)
+
+
+# PyTorch 推荐使用 Parametrization API
+sn_layer = nn.utils.parametrizations.spectral_norm(nn.Linear(32, 64))
 ```
 
 # Evolution of Normalization
 
 深度学习归一化技术的发展并非简单的线性替代, 而是随着模型架构 (CNN, RNN, Transformer) 和任务需求 (分类, 生成, 风格迁移) 的变化而不断分化. 以下是按时间顺序梳理的技术演进细节.
 
-## The Era of Data Preprocessing (Pre-2015)
-
-在深度学习爆发初期, 归一化仅存在于数据输入阶段.
-
-### Data Normalization
-
-早期的做法是直接对输入数据 $x$ 进行处理.
--   **机制改动**: 引入了 $x' = (x - \mu) / \sigma$.
--   **具体增减**: 增加了对原始数据的统计量计算. 此时网络内部没有任何归一化操作.
-
-## The Big Bang: Batch Normalization (2015)
-
-Ioffe 和 Szegedy 提出的 Batch Normalization (BN) 是该领域的奇点. 它首次将归一化引入到网络层的内部.
-
-### Batch Normalization
-
-这是针对深度 [[Deep Learning#Convolutional Neural Networks (CNNs)|CNN]] 训练困难的直接回应.
--   **基于何种改进**: 它是全新的内部归一化概念.
--   **具体增减**:
-    -   **增加**: 在 Batch 维度 $(N)$ 上计算均值 $\mu$ 和方差 $\sigma$. 引入了两个可学习参数 $\gamma$ (缩放) 和 $\beta$ (平移) 来恢复网络的表达能力.
-    -   **改变**: 改变了数据流经每一层的分布, 强制将其拉回 $N(0, 1)$ 附近.
--   **核心收益**: 解决了 Internal Covariate Shift, 使得学习率可以成倍增加.
-
-## Adaptation for Sequences: Layer Normalization (2016)
-
-随着 [[Deep Learning#Recurrent Neural Networks (RNNs)|RNN]] 和 [[Deep Learning#Long Short-Term Memory (LSTM)|LSTM]] 在 NLP 领域的应用, BN 暴露出了对 Batch Size 的依赖以及无法处理变长序列的问题.
-
-### Layer Normalization
-
-这是 Ba 等人针对序列模型对 BN 的改进.
--   **基于何种改进**: 基于 Batch Normalization.
--   **具体增减**:
-    -   **移除**: 移除了计算统计量时对 Batch 维度 $N$ 的依赖.
-    -   **改变**: 将聚合维度转变为特征维度 $C$ (或 Hidden Dimension $D$). 即对每一个样本独立计算均值和方差 $\mu_L, \sigma_L$.
--   **核心收益**: 使得归一化操作与 Batch Size 无关, 完美适配变长序列 (RNN/[[1706.03762]]).
-
-## The Split for Style: Instance Normalization (2016)
-
-在计算机视觉的风格迁移任务中, 人们发现 BN 实际上阻碍了风格化的效果.
-
-### Instance Normalization
-
-Ulyanov 等人在生成纹理网络中提出了这一改进.
--   **基于何种改进**: 基于 Batch Normalization.
--   **具体增减**:
-    -   **移除**: 移除了对 Batch 维度 $N$ 的聚合. 同时也不像 LN 那样对通道维度 $C$ 进行聚合.
-    -   **改变**: 将计算限定在单个样本的单个通道 $(H, W)$ 空间内.
--   **核心收益**: 实际上是 "剔除" 了图像的内容对比度信息 (即风格), 使得模型更容易学习新的风格.
-
-## Stabilization for GANs: Spectral Normalization (2018)
-
-生成对抗网络 ([[Deep Learning#Generative Adversarial Networks (GANs)|GAN]]) 的判别器训练极不稳定, 传统的梯度惩罚 (Gradient Penalty) 计算昂贵.
-
-### Spectral Normalization
-
-Miyato 等人提出的针对权重的归一化.
--   **基于何种改进**: 这是一个全新的分支, 不同于上述针对激活值 (Activation) 的归一化.
--   **具体增减**:
-    -   **改变**: 不再修改特征图 $x$, 而是直接修改权重矩阵 $W$.
-    -   **增加**: 增加了对权重矩阵最大奇异值 (谱范数) 的计算 $\sigma(W)$, 并用其除以权重.
--   **核心收益**: 严格限制了 Lipschitz 常数, 解决了 GAN 梯度爆炸的根本数学问题.
-
-## Solving Hardware Constraints: Group Normalization (2018)
-
-在物体检测等高分辨率视觉任务中, 显存限制导致 Batch Size 只能为 1 或 2, 此时 BN 失效.
-
-### Group Normalization
-
-He 等人提出的 BN 替代方案.
--   **基于何种改进**: 融合了 Layer Norm 和 Instance Norm 的思想.
--   **具体增减**:
-    -   **增加**: 引入了超参数 "Group" ($G$).
-    -   **改变**: 将通道 $C$ 划分为 $G$ 组. 统计量的计算在 (Group, H, W) 范围内进行. 当 $G=1$ 时变为 LN, 当 $G=C$ 时变为 IN.
--   **核心收益**: 在小 Batch Size 下性能远超 BN, 且在大 Batch 下略逊于 BN, 是视觉任务的通用解.
-
-## Optimization for LLMs: RMSNorm (2019)
-
-随着 [[1706.03762]] 模型走向深层 (Deep Learning -> Large Models), 计算效率和数值稳定性成为瓶颈.
-
-### RMSNorm
-
-Zhang 等人对 Layer Normalization 的简化.
--   **基于何种改进**: 基于 Layer Normalization.
--   **具体增减**:
-    -   **减少**: 移除了均值 ($\mu$) 的计算和减法操作 (Centering).
-    -   **改变**: 仅保留均方根 (RMS) 进行缩放. 公式变为 $x / \text{RMS}(x)$.
--   **核心收益**: 减少了计算开销, 同时在深层网络中梯度更加平稳 (不受均值偏移的影响).
-
-## Generative Control: AdaLN-Zero (2022)
-
-在 Diffusion Models (如 DiT) 中, 需要将时间步和条件注入网络, 且网络极深难以训练.
-
-### AdaLN-Zero
-
-Peebles 等人在 [[Diffusion Transformer]] 中提出的改进.
--   **基于何种改进**: 基于 Adaptive Layer Normalization (AdaLN).
--   **具体增减**:
-    -   **改变**: 将原本固定的参数 $\gamma, \beta$ 变为由 MLP 根据条件 $c$ 动态预测的函数.
-    -   **增加**: 增加了 "零初始化" 机制. 预测 $\gamma, \beta$ 的 MLP 最后一层权重初始化为 0.
--   **核心收益**: 使得整个 Transformer Block 在初始状态下等价于恒等映射 (Identity), 极大地降低了训练超深生成模型的难度.
-
-# Detailed Pros and Cons Analysis
-
 ## Evolution Timeline
 
 ```mermaid
 graph TD
-    Data["Data Norm (MinMax / Z-Score)"] --> BN["Batch Normalization (2015)<br>Create: Internal Norm<br>Change: Add Batch Statistics"]
-    
+    Data["Data Norm (MinMax / Z-Score)"] --> BN["Batch Normalization (2015)<br>主要目标: 将归一化引入网络内部, 加速深层 CNN 训练<br>核心改动: 按 Batch 统计均值和方差, 并加入可学习的缩放与偏移参数"]
+
     subgraph CNN_Vision_Track
-        BN --> IN["Instance Normalization (2016)<br>Focus: Style Transfer<br>Change: Remove Batch & Channel aggregation"]
-        BN --> GN["Group Normalization (2018)<br>Focus: Detection (Small Batch)<br>Change: Add Grouping"]
+        BN --> IN["Instance Normalization (2016)<br>主要目标: 服务风格迁移与图像生成, 弱化输入图像的风格统计<br>核心改动: 不跨 Batch 或 Channel 聚合, 对每个样本的每个通道独立统计 H、W 维度"]
+        BN --> GN["Group Normalization (2018)<br>主要目标: 在目标检测、分割等小 Batch 视觉任务中保持稳定<br>核心改动: 将通道划分为多个组, 在每组的通道与空间维度内计算统计量"]
     end
-    
+
     subgraph NLP_LLM_Track
-        BN --> LN["Layer Normalization (2016)<br>Focus: RNN/Seq<br>Change: Transpose to Feature dim"]
-        LN --> RMS["RMSNorm (2019)<br>Focus: Efficiency/LLM<br>Change: Remove Mean Centering"]
+        BN --> LN["Layer Normalization (2016)<br>主要目标: 适配 RNN、Transformer 与变长序列, 消除对 Batch Size 的依赖<br>核心改动: 从跨样本统计改为对每个样本的隐藏特征维度独立归一化"]
+        LN --> RMS["RMSNorm (2019)<br>主要目标: 降低大语言模型的归一化开销并保持深层训练稳定<br>核心改动: 移除减均值操作, 仅使用特征的均方根进行缩放"]
     end
-    
+
     subgraph Generative_Track
-        IN --> AdaIN["AdaIN (2017)<br>Focus: Style Injection<br>Change: Parameter-free, Statistical Alignment"]
-        LN --> AdaLN["AdaLN (2019+)<br>Focus: Conditional Gen<br>Change: Regress Gamma/Beta from Condition"]
-        AdaLN --> AdaLNZero["AdaLN-Zero (2022)<br>Focus: Diffusion Stability<br>Change: Zero-Initialization"]
+        IN --> AdaIN["AdaIN (2017)<br>主要目标: 将目标图像的风格统计直接注入内容特征<br>核心改动: 用风格特征的逐通道均值和方差对齐内容特征, 无需学习固定仿射参数"]
+        LN --> AdaLN["AdaLN (2019+)<br>主要目标: 在条件生成模型中注入时间步、类别或文本等条件<br>核心改动: 由条件向量动态预测缩放参数 gamma 和偏移参数 beta"]
+        AdaLN --> AdaLNZero["AdaLN-Zero (2022)<br>主要目标: 提升深层 Diffusion Transformer 的初始化与训练稳定性<br>核心改动: 将条件调制模块零初始化, 使残差块在训练初期接近恒等映射"]
+        AdaLN --> AdaRMS["AdaRMS (2025, pi0.5)<br>主要目标: 用时间步条件调制 VLA 的 Action Expert<br>核心改动: 将 AdaLN 的 LayerNorm 替换为 RMSNorm, 并生成 scale、shift 和 gate"]
     end
 
     subgraph Weight_Track
-        BN -.-> SN["Spectral Normalization (2018)<br>Focus: GAN Stability<br>Change: Normalize Weights not Activations"]
+        BN -.-> SN["Spectral Normalization (2018)<br>主要目标: 稳定 GAN 判别器训练并抑制梯度爆炸<br>核心改动: 不归一化激活值, 而是用最大奇异值缩放权重并约束 Lipschitz 常数"]
     end
 ```
-
-## Batch Normalization
-
-| Advantages                                                                                                                     | Disadvantages                                                                                                                   |
-| :----------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------ |
-| 1. **优化加速**: 极大地平滑了损失地形, 允许使用大学习率.<br>2. **隐式正则**: Batch 统计量的随机性引入了噪声, 防止过拟合.<br>3. **部署成熟**: 现有推理引擎支持 BN 层融合 (Fusion), 推理零耗时. | 1. **Batch 依赖**: Batch Size < 8 时性能急剧下降.<br>2. **序列不适**: 难以处理变长序列 (RNN/[[1706.03762]]).<br>3. **逻辑割裂**: 训练和推理使用不同的统计量, 导致实现复杂. |
-
-## Layer Normalization
-
-| Advantages                                                                                                      | Disadvantages                                                                      |
-| :-------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------- |
-| 1. **独立性**: 计算不依赖其他样本, 支持单样本推理.<br>2. **通用性**: 完美适配 RNN, [[1706.03762]] 等 NLP 架构.<br>3. **实现简单**: 训练与推理逻辑完全一致. | 1. **视觉劣势**: 在 CNN 中破坏了通道间的特征独立性, 精度通常低于 BN.<br>2. **无正则项**: 缺乏 BN 的随机噪声, 正则化能力较弱. |
-
-## Instance Normalization
-
-| Advantages | Disadvantages |
-| :--- | :--- |
-| 1. **风格解耦**: 有效分离内容与风格信息.<br>2. **生成利器**: 显著提升风格迁移和特定生成任务的质量. | 1. **信息丢失**: 丢弃了全局和局部的对比度信息, 对分类任务有害.<br>2. **领域受限**: 仅在特定的视觉生成领域有效. |
-
-## Group Normalization
-
-| Advantages | Disadvantages |
-| :--- | :--- |
-| 1. **小 Batch 救星**: Batch Size = 1 时依然稳定.<br>2. **稳定性**: 对 Batch Size 的变化不敏感.<br>3. **视觉通用**: 可替代 BN 用于检测, 分割等任务. | 1. **超参引入**: 需要调整 Group 数量 ($G$) 以获最优解.<br>2. **计算开销**: 相比 BN, 计算逻辑稍复杂, 且推理时无法像 BN 那样完全融合进卷积层. |
-
-## RMSNorm
-
-| Advantages                                                                                 | Disadvantages                                                                                                          |
-| :----------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------- |
-| 1. **计算高效**: 节省了 Mean 计算和减法操作.<br>2. **数值稳定**: 在万亿参数级的 LLM 中梯度表现更稳.<br>3. **简化实现**: 代码更简洁. | 1. **理论缺失**: 丧失了平移不变性 (Shift Invariance).<br>2. **硬件优化**: 相比高度优化的 Standard LayerNorm, 可能需要定制 [[Cuda]] Kernel 才能体现速度优势. |
-
-## AdaLN-Zero
-
-| Advantages                                                                                                                            | Disadvantages                                                           |
-| :------------------------------------------------------------------------------------------------------------------------------------ | :---------------------------------------------------------------------- |
-| 1. **训练启动**: 零初始化使得深层网络初期如浅层般易训练.<br>2. **条件控制**: 完美融合了 Time Embedding 和 Prompt 信息.<br>3. **SOTA 标配**: 高质量 [[Diffusion]] Model 的基础组件. | 1. **参数增加**: 需要额外的 MLP 网络来生成参数.<br>2. **特定场景**: 专为条件生成任务设计, 不适用于普通判别任务. |
