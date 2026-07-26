@@ -71,10 +71,10 @@
                   "type": "pdf",
                   "state": {
                     "file": "Lecture/Slides/CS190C_Lec4.pdf",
-                    "page": 31,
-                    "left": -16,
-                    "top": 419,
-                    "zoom": 0.9570312500000001
+                    "page": 1,
+                    "left": -22,
+                    "top": 540,
+                    "zoom": 0.70703125
                   },
                   "icon": "lucide-file-text",
                   "title": "CS190C_Lec4"
@@ -316,7 +316,7 @@
         }
       },
       "active": "84ba175316aa7e0b",
-      "mtime": "2026-06-11T21:55:56+08:00"
+      "mtime": "2026-07-26T19:31:57+08:00"
     },
     "note": {
       "main": {
@@ -352,102 +352,6 @@
                 }
               },
               {
-                "id": "9440d7185aca7ee6",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Develop/Better-Link-Clicker.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "Better-Link-Clicker"
-                }
-              },
-              {
-                "id": "9413012d7141dba6",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Knowledges/Neovim.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "Neovim"
-                }
-              },
-              {
-                "id": "390dd3e89550648e",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Knowledges/Server Shell Setup.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "Server Shell Setup"
-                }
-              },
-              {
-                "id": "a7fa13ccad2cffb9",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Knowledges/Codex.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "Codex"
-                }
-              },
-              {
                 "id": "7eb86a10e14e4f24",
                 "type": "leaf",
                 "state": {
@@ -470,9 +374,57 @@
                   "icon": "lucide-file",
                   "title": "Neovim"
                 }
+              },
+              {
+                "id": "640bcf3923af50f9",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Knowledges/PyTorch Normalization.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "PyTorch Normalization"
+                }
+              },
+              {
+                "id": "89d2df9ce386df12",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Knowledges/RMS.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "RMS"
+                }
               }
             ],
-            "currentTab": 4
+            "currentTab": 3
           }
         ],
         "direction": "vertical"
@@ -612,7 +564,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "Knowledges/Codex.md",
+                    "file": "Knowledges/RMS.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -622,7 +574,7 @@
                     "unlinkedCollapsed": true
                   },
                   "icon": "links-coming-in",
-                  "title": "Backlinks for Codex"
+                  "title": "Backlinks for RMS"
                 }
               },
               {
@@ -651,7 +603,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "Knowledges/Codex.md",
+                    "file": "Knowledges/RMS.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -679,7 +631,7 @@
                     }
                   },
                   "icon": "lucide-git-fork",
-                  "title": "Graph of Codex"
+                  "title": "Graph of RMS"
                 }
               }
             ]
@@ -704,8 +656,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": false
         }
       },
-      "active": "94a8754fa1af570e",
-      "mtime": "2026-07-18T22:11:45+08:00"
+      "active": "89d2df9ce386df12",
+      "mtime": "2026-07-26T19:31:39+08:00"
     },
     "paper": {
       "main": {
