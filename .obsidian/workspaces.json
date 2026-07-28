@@ -72,7 +72,7 @@
                   "state": {
                     "file": "Lecture/Slides/CS190C_Lec4.pdf",
                     "page": 1,
-                    "left": -22,
+                    "left": -311,
                     "top": 540,
                     "zoom": 0.70703125
                   },
@@ -316,7 +316,7 @@
         }
       },
       "active": "84ba175316aa7e0b",
-      "mtime": "2026-07-26T19:31:57+08:00"
+      "mtime": "2026-07-28T18:52:17+08:00"
     },
     "note": {
       "main": {
@@ -398,33 +398,9 @@
                   "icon": "lucide-file",
                   "title": "PyTorch Normalization"
                 }
-              },
-              {
-                "id": "89d2df9ce386df12",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Knowledges/RMS.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "RMS"
-                }
               }
             ],
-            "currentTab": 3
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -564,7 +540,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "Knowledges/RMS.md",
+                    "file": "Knowledges/PyTorch Normalization.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -574,7 +550,7 @@
                     "unlinkedCollapsed": true
                   },
                   "icon": "links-coming-in",
-                  "title": "Backlinks for RMS"
+                  "title": "Backlinks for PyTorch Normalization"
                 }
               },
               {
@@ -603,7 +579,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "Knowledges/RMS.md",
+                    "file": "Knowledges/PyTorch Normalization.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -626,12 +602,12 @@
                       "repelStrength": 10,
                       "linkStrength": 1,
                       "linkDistance": 101,
-                      "scale": 1.1539618883506355,
+                      "scale": 0.9390277118639846,
                       "close": true
                     }
                   },
                   "icon": "lucide-git-fork",
-                  "title": "Graph of RMS"
+                  "title": "Graph of PyTorch Normalization"
                 }
               }
             ]
@@ -656,8 +632,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": false
         }
       },
-      "active": "89d2df9ce386df12",
-      "mtime": "2026-07-26T19:31:39+08:00"
+      "active": "640bcf3923af50f9",
+      "mtime": "2026-07-28T19:47:28+08:00"
     },
     "paper": {
       "main": {
@@ -795,15 +771,14 @@
               {
                 "id": "6b9045d7b2369277",
                 "type": "leaf",
-                "dimension": 50,
                 "state": {
                   "type": "pdf",
                   "state": {
                     "file": "Paper/PDF/2602.10099v2.pdf",
                     "page": 1,
-                    "left": -8,
-                    "top": 661,
-                    "zoom": 1.7757352941176472
+                    "left": -9,
+                    "top": 792,
+                    "zoom": 1.775735294117647
                   },
                   "icon": "lucide-file-text",
                   "title": "2602.10099v2"
@@ -1045,9 +1020,9 @@
           "workspaces:Manage workspace layouts": false
         }
       },
-      "active": "6b9045d7b2369277",
-      "mtime": "2026-07-22T13:47:32+08:00"
+      "active": "4d3c0cef5ec1ab37",
+      "mtime": "2026-07-28T19:09:58+08:00"
     }
   },
-  "active": "note"
+  "active": "paper"
 }

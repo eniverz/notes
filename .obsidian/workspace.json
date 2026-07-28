@@ -4,40 +4,29 @@
     "type": "split",
     "children": [
       {
-        "id": "b386e04b263030bf",
+        "id": "95ecdb37eb91446d",
         "type": "tabs",
         "children": [
           {
-            "id": "15b8c037055b21f9",
+            "id": "1fa1e1d83093f658",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "Knowledges/Git Commit.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "Bases/Paper.base",
+                "viewName": "All Papers"
               },
-              "icon": "lucide-file",
-              "title": "Git Commit"
+              "icon": "lucide-table",
+              "title": "Paper"
             }
           },
           {
-            "id": "7eb86a10e14e4f24",
+            "id": "2c464a9ec2e23196",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Knowledges/Neovim.md",
+                "file": "Paper/PDF/2602.15922.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,16 +41,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Neovim"
+              "title": "2602.15922"
             }
           },
           {
-            "id": "640bcf3923af50f9",
+            "id": "609f6ade8a144705",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Knowledges/PyTorch Normalization.md",
+                "file": "Paper/PDF/2506.09985.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,16 +65,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "PyTorch Normalization"
+              "title": "2506.09985"
             }
           },
           {
-            "id": "89d2df9ce386df12",
+            "id": "4d3c0cef5ec1ab37",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Knowledges/RMS.md",
+                "file": "Paper/PDF/2602.10099.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,11 +89,66 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "RMS"
+              "title": "2602.10099"
             }
           }
         ],
         "currentTab": 3
+      },
+      {
+        "id": "c30f0f85faf98106",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "375dc9fbd8a61898",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Paper/PDF/2602.15922v1.pdf",
+                "page": 1,
+                "left": -65,
+                "top": 842,
+                "zoom": 1.543401716178714
+              },
+              "icon": "lucide-file-text",
+              "title": "2602.15922v1"
+            }
+          },
+          {
+            "id": "0a2b1fcae2a6a2f4",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Paper/PDF/2506.09985v1.pdf",
+                "page": 1,
+                "left": -8,
+                "top": 792,
+                "zoom": 1.7757352941176474
+              },
+              "icon": "lucide-file-text",
+              "title": "2506.09985v1"
+            }
+          },
+          {
+            "id": "6b9045d7b2369277",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Paper/PDF/2602.10099v2.pdf",
+                "page": 1,
+                "left": -9,
+                "top": 792,
+                "zoom": 1.775735294117647
+              },
+              "icon": "lucide-file-text",
+              "title": "2602.10099v2"
+            }
+          }
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -181,7 +225,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "VA-V",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -192,11 +236,13 @@
               "title": "Search"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "989a8de35f3c6aa0",
@@ -230,12 +276,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lecture/Discrete Mathematics.md",
+                "file": "Develop/QueryTools.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from SSH Server"
+              "title": "Outgoing links from QueryTools"
             }
           },
           {
@@ -244,7 +290,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Knowledges/RMS.md",
+                "file": "Paper/pi0.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -254,7 +300,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for RMS"
+              "title": "Backlinks for pi0"
             }
           },
           {
@@ -283,7 +329,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Knowledges/RMS.md",
+                "file": "Paper/pi0.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -306,19 +352,20 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 101,
-                  "scale": 1.1539618883506355,
+                  "scale": 0.6826227075497521,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of RMS"
+              "title": "Graph of pi0"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -326,33 +373,39 @@
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "command-palette:Open command palette": false,
-      "workspaces:Manage workspace layouts": false,
       "bases:Create new base": false,
       "obsidian42-brat:BRAT": false,
       "templater-obsidian:Templater": false,
       "obsidian-git:Open Git source control": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
-      "pdf-plus:PDF++: Toggle auto-paste": false
+      "pdf-plus:PDF++: Toggle auto-paste": false,
+      "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "89d2df9ce386df12",
+  "active": "4d3c0cef5ec1ab37",
   "lastOpenFiles": [
-    "Lecture/Hands-On Large Model Engineering.md",
-    "Lecture/Introduce to Computer Science.md",
-    "Knowledges/RMS.md",
     "Knowledges/PyTorch Normalization.md",
+    "Paper/PDF/2602.10099.md",
+    "Paper/2410.24164.md",
+    "Paper/2210.02747.md",
+    "Paper/PDF/2210.02747v2.pdf",
+    "Paper/PDF/2602.15922.md",
+    "Paper/PDF/2602.10099v2.pdf",
+    "Knowledges/Ubuntu Fn-Key Error.md",
+    "Paper/1706.03762.md",
+    "Paper/PDF/1706.03762v7.pdf",
+    "Knowledges/RMS.md",
+    "Lecture/Hands-On Large Model Engineering.md",
+    "Lecture/Machine Learning.md",
+    "Lecture/Introduce to Computer Science.md",
     "Paper/2504.16054.md",
     "Bases/Projects.base",
-    "Paper/PDF/2602.15922.md",
-    "Paper/2410.24164.md",
     "Paper/2010.11929.md",
     "Knowledges/Neovim.md",
     "Develop/Better-Link-Clicker.md",
     "Knowledges/Codex.md",
     "Knowledges/Server Shell Setup.md",
-    "Paper/PDF/2602.10099v2.pdf",
-    "Paper/PDF/2602.10099.md",
     "Paper/PDF/2602.15922v1.pdf",
     "Paper/PDF/2605.06388v1.pdf",
     "Paper/PDF/2506.09985.md",
@@ -362,18 +415,11 @@
     "Paper/PDF/2506.09985v1.pdf",
     "Paper/PDF/2507.13231.md",
     "Paper/1709.07871.md",
-    "Paper/1706.03762.md",
     "Paper/2602.15397.md",
     "Knowledges/PyTorch Tensor.md",
     "Knowledges/Exponential Moving Average.md",
     "Bases/Paper.base",
-    "Paper/2210.02747.md",
-    "Paper/2403.09631.md",
     "Paper/PDF/2403.09631v1.pdf",
-    "Paper/2505.11123.md",
-    "Paper/PDF/2505.11123v1.pdf",
-    "Paper/2506.01583.md",
-    "Paper/PDF/2602.07322v2.pdf",
     "Assets/Pasted image 20250328215644.png",
     "Assets/Pasted image 20251209085217.jpeg",
     "Assets/Pasted image 20251209084923.jpeg",
