@@ -97,7 +97,7 @@ $$
 \mathcal{A} = \text{DCT}(A) \in \mathbb{R}^{T \times D}
 $$
 
-在训练阶段, 模型 (如 Diffusion Transformer 或 MLP) 的目标是预测 $\mathcal{A}$ 的低频部分. 在推理阶段, 模型输出预测的频域系数 $\hat{\mathcal{A}}$, 然后通过逆变换恢复动作序列:
+在训练阶段, 模型 (如 [[2212.09748|DiT]] 或 [[Deep Learning#Multi-Layer Network|MLP]]) 的目标是预测 $\mathcal{A}$ 的低频部分. 在推理阶段, 模型输出预测的频域系数 $\hat{\mathcal{A}}$, 然后通过逆变换恢复动作序列:
 
 $$
 \hat{A} = \text{IDCT}(\hat{\mathcal{A}})

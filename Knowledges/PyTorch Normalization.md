@@ -239,7 +239,7 @@ rms_norm = nn.RMSNorm(512)
 
 ### AdaLN-Zero
 
-AdaLN 首先将 LN 中固定的 Scale ($\gamma$) 和 Shift ($\beta$) 改为由条件向量动态生成; AdaLN-Zero 则在此基础上加入零初始化. Peebles 等人在 2022 年的 DiT (Diffusion Transformer) 中采用这一设计, 使残差块在训练初期接近恒等映射.
+AdaLN 首先将 LN 中固定的 Scale ($\gamma$) 和 Shift ($\beta$) 改为由条件向量动态生成; AdaLN-Zero 则在此基础上加入零初始化. Peebles 等人在 2022 年的 DiT ([[2212.09748|DiT]]) 中采用这一设计, 使残差块在训练初期接近恒等映射.
 
 $$
 \text{AdaLN}(x, c) = (1 + \gamma(c)) \cdot \text{Norm}(x) + \beta(c)
