@@ -91,57 +91,9 @@
               "icon": "lucide-file",
               "title": "2602.10099"
             }
-          },
-          {
-            "id": "199702072f4ef001",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Paper/PDF/2510.11690.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "2510.11690"
-            }
-          },
-          {
-            "id": "f645732de92870cb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Paper/PDF/2504.05741.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "2504.05741"
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       },
       {
         "id": "c30f0f85faf98106",
@@ -186,51 +138,17 @@
               "type": "pdf",
               "state": {
                 "file": "Paper/PDF/2602.10099v2.pdf",
-                "page": 4,
+                "page": 2,
                 "left": -9,
-                "top": 586,
+                "top": 546,
                 "zoom": 1.775735294117647
               },
               "icon": "lucide-file-text",
               "title": "2602.10099v2"
             }
-          },
-          {
-            "id": "1f7ddf32919ef056",
-            "type": "leaf",
-            "dimension": 33.333333333333336,
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Paper/PDF/2510.11690v1.pdf",
-                "page": 1,
-                "left": -9,
-                "top": 792,
-                "zoom": 1.775735294117647
-              },
-              "icon": "lucide-file-text",
-              "title": "2510.11690v1"
-            }
-          },
-          {
-            "id": "2e8d906e9065e214",
-            "type": "leaf",
-            "dimension": 25,
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Paper/PDF/2504.05741v2.pdf",
-                "page": 7,
-                "left": -9,
-                "top": 112,
-                "zoom": 1.775735294117647
-              },
-              "icon": "lucide-file-text",
-              "title": "2504.05741v2"
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -358,12 +276,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Paper/PDF/2504.05741.md",
+                "file": "Paper/PDF/2602.10099.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 2504.05741"
+              "title": "Outgoing links from 2602.10099"
             }
           },
           {
@@ -372,7 +290,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Paper/PDF/2504.05741.md",
+                "file": "Paper/PDF/2602.10099.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -382,7 +300,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2504.05741"
+              "title": "Backlinks for 2602.10099"
             }
           },
           {
@@ -411,7 +329,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Paper/PDF/2504.05741.md",
+                "file": "Paper/PDF/2602.10099.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -439,7 +357,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of 2504.05741"
+              "title": "Graph of 2602.10099"
             }
           }
         ]
@@ -465,8 +383,12 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "f645732de92870cb",
+  "active": "4d3c0cef5ec1ab37",
   "lastOpenFiles": [
+    "Paper/PDF/2506.09985.md",
+    "Bases/Paper.base",
+    "Paper/PDF/2602.15922.md",
+    "Paper/PDF/2602.10099v2.pdf",
     "Paper/PDF/2510.11690v1.pdf",
     "Paper/PDF/2602.10099.md",
     "Paper/PDF/2510.11690.md",
@@ -476,7 +398,6 @@
     "Paper/PDF/2410.06940v4.pdf",
     "Paper/PDF/2212.09748.md",
     "Lecture/Deep Learning.md",
-    "Paper/PDF/2602.10099v2.pdf",
     "Paper/PDF/2212.09748v2.pdf",
     "Paper/2303.04137.md",
     "Knowledges/PyTorch Normalization.md",
@@ -489,7 +410,6 @@
     "Paper/2309.15505.md",
     "Paper/2210.02747.md",
     "Paper/PDF/2210.02747v2.pdf",
-    "Paper/PDF/2602.15922.md",
     "Knowledges/Ubuntu Fn-Key Error.md",
     "Paper/1706.03762.md",
     "Paper/PDF/1706.03762v7.pdf",
@@ -499,9 +419,7 @@
     "Lecture/Introduce to Computer Science.md",
     "Paper/2504.16054.md",
     "Bases/Projects.base",
-    "Paper/2010.11929.md",
     "Paper/PDF/2602.15922v1.pdf",
-    "Paper/PDF/2605.06388v1.pdf",
     "Assets/Pasted image 20250328215644.png",
     "Assets/Pasted image 20251209085217.jpeg",
     "Assets/Pasted image 20251209084923.jpeg",
