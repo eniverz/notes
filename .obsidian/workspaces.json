@@ -775,10 +775,10 @@
                   "type": "pdf",
                   "state": {
                     "file": "Paper/PDF/2602.10099v2.pdf",
-                    "page": 1,
-                    "left": -9,
-                    "top": 792,
-                    "zoom": 1.775735294117647
+                    "page": 2,
+                    "left": -18,
+                    "top": 546,
+                    "zoom": 0.8517156862745099
                   },
                   "icon": "lucide-file-text",
                   "title": "2602.10099v2"
@@ -862,7 +862,7 @@
                 "state": {
                   "type": "search",
                   "state": {
-                    "query": "VA-V",
+                    "query": "\"Diffusion Transformers\"",
                     "matchingCase": false,
                     "explainSearch": false,
                     "collapseAll": false,
@@ -913,12 +913,12 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "Develop/QueryTools.md",
+                    "file": "Paper/PDF/2602.10099.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   },
                   "icon": "links-going-out",
-                  "title": "Outgoing links from QueryTools"
+                  "title": "Outgoing links from 2602.10099"
                 }
               },
               {
@@ -927,7 +927,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "Paper/pi0.md",
+                    "file": "Paper/PDF/2602.10099.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -937,7 +937,7 @@
                     "unlinkedCollapsed": true
                   },
                   "icon": "links-coming-in",
-                  "title": "Backlinks for pi0"
+                  "title": "Backlinks for 2602.10099"
                 }
               },
               {
@@ -966,7 +966,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "Paper/pi0.md",
+                    "file": "Paper/PDF/2602.10099.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -994,7 +994,7 @@
                     }
                   },
                   "icon": "lucide-git-fork",
-                  "title": "Graph of pi0"
+                  "title": "Graph of 2602.10099"
                 }
               }
             ]
@@ -1021,8 +1021,8 @@
         }
       },
       "active": "4d3c0cef5ec1ab37",
-      "mtime": "2026-07-28T19:09:58+08:00"
+      "mtime": "2026-07-30T01:24:56+08:00"
     }
   },
-  "active": "paper"
+  "active": "note"
 }
