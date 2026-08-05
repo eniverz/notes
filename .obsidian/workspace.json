@@ -204,7 +204,7 @@
                 "file": "Paper/PDF/Galaxea_G0_5.pdf",
                 "page": 5,
                 "left": -350,
-                "top": 55,
+                "top": 302,
                 "zoom": 0.8517156862745098
               },
               "icon": "lucide-file-text",
@@ -447,10 +447,10 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "f28621ee743ed820",
+  "active": "a083197db720fba2",
   "lastOpenFiles": [
-    "Paper/GalaxeaVLA.md",
     "Paper/2602.15397.md",
+    "Paper/GalaxeaVLA.md",
     "Paper/PDF/Galaxea_G0_5.pdf",
     "Paper/2512.04952.md",
     "Paper/2411.19842.md",
