@@ -139,6 +139,30 @@
               "icon": "lucide-file",
               "title": "2602.15397"
             }
+          },
+          {
+            "id": "18fdd196e0430244",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Paper/2602.04215.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "2602.04215"
+            }
           }
         ],
         "currentTab": 5
@@ -203,9 +227,9 @@
               "state": {
                 "file": "Paper/PDF/Galaxea_G0_5.pdf",
                 "page": 5,
-                "left": -350,
-                "top": 302,
-                "zoom": 0.8517156862745098
+                "left": -18,
+                "top": 445,
+                "zoom": 0.8517156862745099
               },
               "icon": "lucide-file-text",
               "title": "Galaxea_G0_5"
@@ -447,10 +471,11 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "a083197db720fba2",
+  "active": "f28621ee743ed820",
   "lastOpenFiles": [
-    "Paper/2602.15397.md",
     "Paper/GalaxeaVLA.md",
+    "Paper/2602.04215.md",
+    "Paper/2602.15397.md",
     "Paper/PDF/Galaxea_G0_5.pdf",
     "Paper/2512.04952.md",
     "Paper/2411.19842.md",
@@ -475,7 +500,6 @@
     "Paper/2602.23408.md",
     "Paper/2410.24164.md",
     "Paper/2203.01941.md",
-    "Paper/2602.04215.md",
     "Paper/2309.15505.md",
     "Paper/2210.02747.md",
     "Paper/PDF/2210.02747v2.pdf",
