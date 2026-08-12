@@ -139,9 +139,33 @@
               "icon": "lucide-file",
               "title": "2602.15397"
             }
+          },
+          {
+            "id": "bc233c20532d78d6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Paper/2602.21445.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "2602.21445"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       },
       {
         "id": "c30f0f85faf98106",
@@ -205,7 +229,7 @@
                 "page": 5,
                 "left": -18,
                 "top": 445,
-                "zoom": 0.8517156862745098
+                "zoom": 0.8333333333333334
               },
               "icon": "lucide-file-text",
               "title": "Galaxea_G0_5"
@@ -447,12 +471,14 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "f28621ee743ed820",
+  "active": "bc233c20532d78d6",
   "lastOpenFiles": [
+    "Paper/2602.15397.md",
+    "Paper/2602.21445.md",
+    "Paper/PDF/2602.21445v2.pdf",
     "Paper/2602.04215.md",
     "Paper/2607.14635.md",
     "Bases/Paper.base",
-    "Paper/2602.15397.md",
     "Paper/PDF/2607.14635v1.pdf",
     "Paper/GalaxeaVLA.md",
     "Paper/PDF/Galaxea_G0_5.pdf",
@@ -483,7 +509,6 @@
     "Paper/PDF/2210.02747v2.pdf",
     "Knowledges/Ubuntu Fn-Key Error.md",
     "Paper/1706.03762.md",
-    "Paper/PDF/1706.03762v7.pdf",
     "Assets/Pasted image 20250328215644.png",
     "Assets/Pasted image 20251209085217.jpeg",
     "Assets/Pasted image 20251209084923.jpeg",
