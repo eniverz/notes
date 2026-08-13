@@ -658,12 +658,12 @@
                 }
               },
               {
-                "id": "2c464a9ec2e23196",
+                "id": "b45e4bb684bcbcac",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Paper/PDF/2602.15922.md",
+                    "file": "Paper/2602.15922.md",
                     "mode": "source",
                     "source": false,
                     "backlinks": true,
@@ -682,12 +682,12 @@
                 }
               },
               {
-                "id": "609f6ade8a144705",
+                "id": "5570e2625fafd57d",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Paper/PDF/2506.09985.md",
+                    "file": "Paper/2506.09985.md",
                     "mode": "source",
                     "source": false,
                     "backlinks": true,
@@ -752,9 +752,33 @@
                   "icon": "lucide-file",
                   "title": "GalaxeaVLA"
                 }
+              },
+              {
+                "id": "bc233c20532d78d6",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Paper/2602.21445.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "2602.21445"
+                }
               }
             ],
-            "currentTab": 4
+            "currentTab": 5
           },
           {
             "id": "c30f0f85faf98106",
@@ -768,7 +792,7 @@
                   "state": {
                     "file": "Paper/PDF/2602.15922v1.pdf",
                     "page": 1,
-                    "left": -65,
+                    "left": 0,
                     "top": 842,
                     "zoom": 1.543401716178714
                   },
@@ -784,7 +808,7 @@
                   "state": {
                     "file": "Paper/PDF/2506.09985v1.pdf",
                     "page": 1,
-                    "left": -8,
+                    "left": 0,
                     "top": 792,
                     "zoom": 1.7757352941176474
                   },
@@ -800,7 +824,7 @@
                   "state": {
                     "file": "Paper/PDF/2602.10099v2.pdf",
                     "page": 1,
-                    "left": -9,
+                    "left": 0,
                     "top": 792,
                     "zoom": 1.775735294117647
                   },
@@ -811,22 +835,37 @@
               {
                 "id": "a083197db720fba2",
                 "type": "leaf",
-                "dimension": 33.333333333333336,
                 "state": {
                   "type": "pdf",
                   "state": {
                     "file": "Paper/PDF/Galaxea_G0_5.pdf",
-                    "page": 5,
+                    "page": 1,
                     "left": -18,
-                    "top": 55,
-                    "zoom": 0.8517156862745099
+                    "top": 792,
+                    "zoom": 0.8333333333333334
                   },
                   "icon": "lucide-file-text",
                   "title": "Galaxea_G0_5"
                 }
+              },
+              {
+                "id": "2ed3e3d56c7100fa",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "Paper/PDF/2602.21445v2.pdf",
+                    "page": 1,
+                    "left": -18,
+                    "top": 792,
+                    "zoom": 0.8333333333333334
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "2602.21445v2"
+                }
               }
             ],
-            "currentTab": 3
+            "currentTab": 4
           }
         ],
         "direction": "vertical"
@@ -1061,9 +1100,9 @@
           "workspaces:Manage workspace layouts": false
         }
       },
-      "active": "b19f557b5004ef32",
-      "mtime": "2026-08-04T22:26:23+08:00"
+      "active": "bc233c20532d78d6",
+      "mtime": "2026-08-13T14:53:44+08:00"
     }
   },
-  "active": "paper"
+  "active": "note"
 }
