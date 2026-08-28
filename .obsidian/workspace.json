@@ -93,12 +93,12 @@
             }
           },
           {
-            "id": "b19f557b5004ef32",
+            "id": "320e1edaef6e10da",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Paper/GalaxeaVLA.md",
+                "file": "Paper/2608.11739.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -113,7 +113,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "GalaxeaVLA"
+              "title": "2608.11739"
             }
           },
           {
@@ -141,7 +141,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       },
       {
         "id": "c30f0f85faf98106",
@@ -196,19 +196,19 @@
             }
           },
           {
-            "id": "a083197db720fba2",
+            "id": "dca71f5ddd9f235b",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Paper/PDF/Galaxea_G0_5.pdf",
+                "file": "Paper/PDF/2608.11739v1.pdf",
                 "page": 1,
-                "left": -18,
+                "left": -9,
                 "top": 792,
-                "zoom": 0.8333333333333334
+                "zoom": 1.775735294117647
               },
               "icon": "lucide-file-text",
-              "title": "Galaxea_G0_5"
+              "title": "2608.11739v1"
             }
           },
           {
@@ -219,16 +219,16 @@
               "state": {
                 "file": "Paper/PDF/2602.21445v2.pdf",
                 "page": 1,
-                "left": -9,
-                "top": 459,
-                "zoom": 1.775735294117647
+                "left": -8,
+                "top": 792,
+                "zoom": 1.7757352941176472
               },
               "icon": "lucide-file-text",
               "title": "2602.21445v2"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -463,13 +463,17 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "2ed3e3d56c7100fa",
+  "active": "dca71f5ddd9f235b",
   "lastOpenFiles": [
-    "Paper/PDF/2602.10099v2.pdf",
-    "Paper/PDF/Galaxea_G0_5.pdf",
-    "Paper/2602.21445.md",
-    "Knowledges/PyTorch Normalization.md",
+    "Paper/2608.11739.md",
+    "Paper/PDF/Galaxea_G0_5.pdf.md",
     "Paper/PDF/2602.21445v2.pdf",
+    "Paper/2602.21445.md",
+    "Paper/PDF/Galaxea_G0_5.pdf",
+    "Paper/GalaxeaVLA.md",
+    "Paper/PDF/2608.11739v1.pdf",
+    "Paper/PDF/2602.10099v2.pdf",
+    "Knowledges/PyTorch Normalization.md",
     "Paper/2602.15922.md",
     "Paper/2506.09985.md",
     "Paper/PDF/2602.15922v1.pdf",
@@ -481,7 +485,6 @@
     "Paper/2607.14635.md",
     "Bases/Paper.base",
     "Paper/PDF/2607.14635v1.pdf",
-    "Paper/GalaxeaVLA.md",
     "Paper/2411.19842.md",
     "Paper/2212.09748.md",
     "Paper/2410.06940.md",
@@ -490,7 +493,6 @@
     "Paper/2510.11690.md",
     "Paper/PDF/2510.11690v1.pdf",
     "Paper/PDF/2504.05741v2.pdf",
-    "Paper/PDF/2410.06940v4.pdf",
     "Lecture/Deep Learning.md",
     "Paper/2303.04137.md",
     "Knowledges/DCT.md",
@@ -499,7 +501,6 @@
     "Paper/2203.01941.md",
     "Paper/2309.15505.md",
     "Paper/2210.02747.md",
-    "Knowledges/Ubuntu Fn-Key Error.md",
     "Assets/Pasted image 20250328215644.png",
     "Assets/Pasted image 20251209085217.jpeg",
     "Assets/Pasted image 20251209084923.jpeg",
