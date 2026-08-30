@@ -139,9 +139,33 @@
               "icon": "lucide-file",
               "title": "2602.21445"
             }
+          },
+          {
+            "id": "543f14321b068206",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Paper/2512.04952.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "2512.04952"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       },
       {
         "id": "c30f0f85faf98106",
@@ -202,10 +226,10 @@
               "type": "pdf",
               "state": {
                 "file": "Paper/PDF/2608.11739v1.pdf",
-                "page": 1,
-                "left": -9,
+                "page": 2,
+                "left": -8,
                 "top": 792,
-                "zoom": 1.775735294117647
+                "zoom": 1.7757352941176474
               },
               "icon": "lucide-file-text",
               "title": "2608.11739v1"
@@ -228,7 +252,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -463,15 +487,15 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "dca71f5ddd9f235b",
+  "active": "543f14321b068206",
   "lastOpenFiles": [
+    "Paper/2602.21445.md",
+    "Paper/PDF/2602.21445v2.pdf",
+    "Paper/PDF/2608.11739v1.pdf",
     "Paper/2608.11739.md",
     "Paper/PDF/Galaxea_G0_5.pdf.md",
-    "Paper/PDF/2602.21445v2.pdf",
-    "Paper/2602.21445.md",
     "Paper/PDF/Galaxea_G0_5.pdf",
     "Paper/GalaxeaVLA.md",
-    "Paper/PDF/2608.11739v1.pdf",
     "Paper/PDF/2602.10099v2.pdf",
     "Knowledges/PyTorch Normalization.md",
     "Paper/2602.15922.md",
@@ -500,7 +524,6 @@
     "Paper/2410.24164.md",
     "Paper/2203.01941.md",
     "Paper/2309.15505.md",
-    "Paper/2210.02747.md",
     "Assets/Pasted image 20250328215644.png",
     "Assets/Pasted image 20251209085217.jpeg",
     "Assets/Pasted image 20251209084923.jpeg",
