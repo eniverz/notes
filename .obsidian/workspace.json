@@ -139,33 +139,9 @@
               "icon": "lucide-file",
               "title": "2602.21445"
             }
-          },
-          {
-            "id": "543f14321b068206",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Paper/2512.04952.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "2512.04952"
-            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       },
       {
         "id": "c30f0f85faf98106",
@@ -487,8 +463,9 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "543f14321b068206",
+  "active": "bc233c20532d78d6",
   "lastOpenFiles": [
+    "Paper/2512.04952.md",
     "Paper/2602.21445.md",
     "Paper/PDF/2602.21445v2.pdf",
     "Paper/PDF/2608.11739v1.pdf",
@@ -504,7 +481,6 @@
     "Paper/PDF/2506.09985v1.pdf",
     "Paper/2602.15397.md",
     "Paper/2602.10099.md",
-    "Paper/2512.04952.md",
     "Paper/2602.04215.md",
     "Paper/2607.14635.md",
     "Bases/Paper.base",
