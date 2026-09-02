@@ -115,33 +115,9 @@
               "icon": "lucide-file",
               "title": "2608.11739"
             }
-          },
-          {
-            "id": "bc233c20532d78d6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Paper/2602.21445.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "2602.21445"
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       },
       {
         "id": "c30f0f85faf98106",
@@ -187,7 +163,7 @@
               "state": {
                 "file": "Paper/PDF/2602.10099v2.pdf",
                 "page": 1,
-                "left": 0,
+                "left": -9,
                 "top": 792,
                 "zoom": 1.775735294117647
               },
@@ -202,7 +178,7 @@
               "type": "pdf",
               "state": {
                 "file": "Paper/PDF/2608.11739v1.pdf",
-                "page": 2,
+                "page": 1,
                 "left": -8,
                 "top": 792,
                 "zoom": 1.7757352941176474
@@ -210,25 +186,9 @@
               "icon": "lucide-file-text",
               "title": "2608.11739v1"
             }
-          },
-          {
-            "id": "2ed3e3d56c7100fa",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Paper/PDF/2602.21445v2.pdf",
-                "page": 1,
-                "left": -18,
-                "top": 792,
-                "zoom": 0.8517156862745099
-              },
-              "icon": "lucide-file-text",
-              "title": "2602.21445v2"
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -463,17 +423,17 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "bc233c20532d78d6",
+  "active": "dca71f5ddd9f235b",
   "lastOpenFiles": [
-    "Paper/2512.04952.md",
-    "Paper/2602.21445.md",
-    "Paper/PDF/2602.21445v2.pdf",
-    "Paper/PDF/2608.11739v1.pdf",
+    "Paper/PDF/2602.10099v2.pdf",
     "Paper/2608.11739.md",
+    "Paper/PDF/2608.11739v1.pdf",
+    "Paper/PDF/2602.21445v2.pdf",
+    "Paper/2602.21445.md",
+    "Paper/2512.04952.md",
     "Paper/PDF/Galaxea_G0_5.pdf.md",
     "Paper/PDF/Galaxea_G0_5.pdf",
     "Paper/GalaxeaVLA.md",
-    "Paper/PDF/2602.10099v2.pdf",
     "Knowledges/PyTorch Normalization.md",
     "Paper/2602.15922.md",
     "Paper/2506.09985.md",
