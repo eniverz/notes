@@ -732,12 +732,12 @@
                 }
               },
               {
-                "id": "b19f557b5004ef32",
+                "id": "320e1edaef6e10da",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Paper/GalaxeaVLA.md",
+                    "file": "Paper/2608.11739.md",
                     "mode": "source",
                     "source": false,
                     "backlinks": true,
@@ -752,35 +752,11 @@
                     }
                   },
                   "icon": "lucide-file",
-                  "title": "GalaxeaVLA"
-                }
-              },
-              {
-                "id": "bc233c20532d78d6",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Paper/2602.21445.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "2602.21445"
+                  "title": "2608.11739"
                 }
               }
             ],
-            "currentTab": 5
+            "currentTab": 4
           },
           {
             "id": "c30f0f85faf98106",
@@ -826,7 +802,7 @@
                   "state": {
                     "file": "Paper/PDF/2602.10099v2.pdf",
                     "page": 1,
-                    "left": 0,
+                    "left": -9,
                     "top": 792,
                     "zoom": 1.775735294117647
                   },
@@ -835,39 +811,23 @@
                 }
               },
               {
-                "id": "a083197db720fba2",
+                "id": "dca71f5ddd9f235b",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "Paper/PDF/Galaxea_G0_5.pdf",
-                    "page": 1,
-                    "left": -18,
-                    "top": 792,
-                    "zoom": 0.8333333333333334
+                    "file": "Paper/PDF/2608.11739v1.pdf",
+                    "page": 2,
+                    "left": -8,
+                    "top": 406,
+                    "zoom": 1.7757352941176472
                   },
                   "icon": "lucide-file-text",
-                  "title": "Galaxea_G0_5"
-                }
-              },
-              {
-                "id": "2ed3e3d56c7100fa",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "Paper/PDF/2602.21445v2.pdf",
-                    "page": 1,
-                    "left": -18,
-                    "top": 792,
-                    "zoom": 0.8333333333333334
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "2602.21445v2"
+                  "title": "2608.11739v1"
                 }
               }
             ],
-            "currentTab": 4
+            "currentTab": 3
           }
         ],
         "direction": "vertical"
@@ -1102,9 +1062,9 @@
           "workspaces:Manage workspace layouts": false
         }
       },
-      "active": "bc233c20532d78d6",
-      "mtime": "2026-08-13T14:53:44+08:00"
+      "active": "320e1edaef6e10da",
+      "mtime": "2026-09-03T15:48:44+08:00"
     }
   },
-  "active": "paper"
+  "active": "note"
 }
