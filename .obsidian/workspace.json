@@ -178,10 +178,10 @@
               "type": "pdf",
               "state": {
                 "file": "Paper/PDF/2608.11739v1.pdf",
-                "page": 1,
+                "page": 2,
                 "left": -8,
-                "top": 792,
-                "zoom": 1.7757352941176474
+                "top": 406,
+                "zoom": 1.7757352941176472
               },
               "icon": "lucide-file-text",
               "title": "2608.11739v1"
@@ -425,11 +425,11 @@
   },
   "active": "dca71f5ddd9f235b",
   "lastOpenFiles": [
-    "Paper/PDF/2602.10099v2.pdf",
-    "Paper/2608.11739.md",
-    "Paper/PDF/2608.11739v1.pdf",
     "Paper/PDF/2602.21445v2.pdf",
     "Paper/2602.21445.md",
+    "Paper/PDF/2608.11739v1.pdf",
+    "Paper/PDF/2602.10099v2.pdf",
+    "Paper/2608.11739.md",
     "Paper/2512.04952.md",
     "Paper/PDF/Galaxea_G0_5.pdf.md",
     "Paper/PDF/Galaxea_G0_5.pdf",
