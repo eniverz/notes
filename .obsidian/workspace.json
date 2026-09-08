@@ -180,7 +180,7 @@
                 "file": "Paper/PDF/2608.11739v1.pdf",
                 "page": 1,
                 "left": -8,
-                "top": 792,
+                "top": 716,
                 "zoom": 1.7757352941176472
               },
               "icon": "lucide-file-text",
@@ -423,12 +423,12 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "320e1edaef6e10da",
+  "active": "dca71f5ddd9f235b",
   "lastOpenFiles": [
+    "Paper/2608.11739.md",
     "Paper/2602.15922.md",
     "Paper/2506.09985.md",
     "Paper/2602.10099.md",
-    "Paper/2608.11739.md",
     "Paper/2602.04215.md",
     "Paper/PDF/2608.11739v1.pdf",
     "Paper/PDF/2602.04215v1.pdf",
