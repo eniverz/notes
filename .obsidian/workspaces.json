@@ -817,9 +817,9 @@
                   "type": "pdf",
                   "state": {
                     "file": "Paper/PDF/2608.11739v1.pdf",
-                    "page": 2,
+                    "page": 8,
                     "left": -8,
-                    "top": 406,
+                    "top": 37,
                     "zoom": 1.7757352941176472
                   },
                   "icon": "lucide-file-text",
@@ -1063,8 +1063,8 @@
         }
       },
       "active": "320e1edaef6e10da",
-      "mtime": "2026-09-03T15:48:44+08:00"
+      "mtime": "2026-09-09T01:39:15+08:00"
     }
   },
-  "active": "paper"
+  "active": "note"
 }

@@ -36,3 +36,20 @@ git clone <remote_url> -b <branch> --single-branch
 ```bash
 git clone <remote_url> -r
 ```
+
+## Clone only folder
+
+```bash
+git clone --depth 1 --filter=blob:none --sparse <url/for/repo> --branch <branch_name>
+cd <repo>
+git sparse-checkout set <path/to/folder>
+```
+
+参数解释:
+- `--depth 1`: 只把最新的一个commit记录下载到本地, 之前的记录不管. 后续如果需要其他的记录可以通过 [[#Fetch]] 来获取
+- `--filter=blob:none`: 把没有checkout的文件过滤掉, 只把远程的commit记录拉下来. 然后通过`sparse-checkout`来下载.
+- `--sparse`: 启用sparse checkout. 目的是为了优化磁盘占用. 如果不使用这个, 那么一开始可能会直接下载所有的文件(需要clone整个文件夹)
+- `--branch <branch_name>`: 指定分支
+- `sparse-checkout`: 稀疏checkout, 只把某一个路径下的文件检出, 而不是把整个branch检出
+
+# Fetch
