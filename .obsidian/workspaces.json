@@ -333,7 +333,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Knowledges/Git Commit.md",
+                    "file": "Knowledges/Git Clone.md",
                     "mode": "source",
                     "source": false,
                     "backlinks": true,
@@ -348,7 +348,7 @@
                     }
                   },
                   "icon": "lucide-file",
-                  "title": "Git Commit"
+                  "title": "Git Clone"
                 }
               },
               {
@@ -399,8 +399,7 @@
                   "title": "PyTorch Normalization"
                 }
               }
-            ],
-            "currentTab": 2
+            ]
           }
         ],
         "direction": "vertical"
@@ -542,7 +541,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "Knowledges/PyTorch Normalization.md",
+                    "file": "Knowledges/Git Clone.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -581,7 +580,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "Knowledges/PyTorch Normalization.md",
+                    "file": "Knowledges/Git Clone.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -634,8 +633,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": false
         }
       },
-      "active": "640bcf3923af50f9",
-      "mtime": "2026-09-06T15:50:02+08:00"
+      "active": "15b8c037055b21f9",
+      "mtime": "2026-09-09T14:31:24+08:00"
     },
     "paper": {
       "main": {
@@ -1066,5 +1065,5 @@
       "mtime": "2026-09-09T01:39:15+08:00"
     }
   },
-  "active": "note"
+  "active": "paper"
 }
