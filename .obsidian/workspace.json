@@ -4,29 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "95ecdb37eb91446d",
+        "id": "b386e04b263030bf",
         "type": "tabs",
         "children": [
           {
-            "id": "1fa1e1d83093f658",
-            "type": "leaf",
-            "state": {
-              "type": "bases",
-              "state": {
-                "file": "Bases/Paper.base",
-                "viewName": "All Papers"
-              },
-              "icon": "lucide-table",
-              "title": "Paper"
-            }
-          },
-          {
-            "id": "b45e4bb684bcbcac",
+            "id": "15b8c037055b21f9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Paper/2602.15922.md",
+                "file": "Knowledges/Git Clone.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -41,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2602.15922"
+              "title": "Git Clone"
             }
           },
           {
-            "id": "5570e2625fafd57d",
+            "id": "7eb86a10e14e4f24",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Paper/2506.09985.md",
+                "file": "Knowledges/Neovim.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -65,16 +52,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2506.09985"
+              "title": "Neovim"
             }
           },
           {
-            "id": "4d3c0cef5ec1ab37",
+            "id": "640bcf3923af50f9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Paper/2602.10099.md",
+                "file": "Knowledges/PyTorch Normalization.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -89,106 +76,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2602.10099"
-            }
-          },
-          {
-            "id": "320e1edaef6e10da",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Paper/2608.11739.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "2608.11739"
+              "title": "PyTorch Normalization"
             }
           }
-        ],
-        "currentTab": 4
-      },
-      {
-        "id": "c30f0f85faf98106",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "375dc9fbd8a61898",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Paper/PDF/2602.15922v1.pdf",
-                "page": 1,
-                "left": 0,
-                "top": 842,
-                "zoom": 1.543401716178714
-              },
-              "icon": "lucide-file-text",
-              "title": "2602.15922v1"
-            }
-          },
-          {
-            "id": "0a2b1fcae2a6a2f4",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Paper/PDF/2506.09985v1.pdf",
-                "page": 1,
-                "left": 0,
-                "top": 792,
-                "zoom": 1.7757352941176474
-              },
-              "icon": "lucide-file-text",
-              "title": "2506.09985v1"
-            }
-          },
-          {
-            "id": "6b9045d7b2369277",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Paper/PDF/2602.10099v2.pdf",
-                "page": 1,
-                "left": -9,
-                "top": 792,
-                "zoom": 1.775735294117647
-              },
-              "icon": "lucide-file-text",
-              "title": "2602.10099v2"
-            }
-          },
-          {
-            "id": "dca71f5ddd9f235b",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Paper/PDF/2608.11739v1.pdf",
-                "page": 15,
-                "left": -10,
-                "top": 763,
-                "zoom": 1.5012254901960784
-              },
-              "icon": "lucide-file-text",
-              "title": "2608.11739v1"
-            }
-          }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -267,7 +158,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"Diffusion Transformers\"",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -278,13 +169,11 @@
               "title": "Search"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "989a8de35f3c6aa0",
@@ -318,12 +207,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Paper/PDF/2602.10099.md",
+                "file": "Lecture/Discrete Mathematics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 2602.10099"
+              "title": "Outgoing links from SSH Server"
             }
           },
           {
@@ -332,7 +221,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Paper/PDF/2602.10099.md",
+                "file": "Knowledges/Git Clone.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -342,7 +231,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2602.10099"
+              "title": "Backlinks"
             }
           },
           {
@@ -371,7 +260,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Paper/PDF/2602.10099.md",
+                "file": "Knowledges/Git Clone.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -394,20 +283,19 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 101,
-                  "scale": 0.6826227075497521,
+                  "scale": 0.9390277118639846,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of 2602.10099"
+              "title": "Local graph"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -415,25 +303,30 @@
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "command-palette:Open command palette": false,
+      "workspaces:Manage workspace layouts": false,
       "bases:Create new base": false,
       "obsidian42-brat:BRAT": false,
       "templater-obsidian:Templater": false,
       "obsidian-git:Open Git source control": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
-      "pdf-plus:PDF++: Toggle auto-paste": false,
-      "workspaces:Manage workspace layouts": false
+      "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "320e1edaef6e10da",
+  "active": "15b8c037055b21f9",
   "lastOpenFiles": [
+    "Knowledges/Neovim.md",
+    "Knowledges/Git Pull.md",
+    "Knowledges/Git Fetch.md",
+    "Knowledges/Git Clone.md",
+    "Knowledges/PyTorch Normalization.md",
+    "Paper/1709.07871.md",
+    "Paper/2608.11739.md",
     "Paper/2504.05741.md",
     "Paper/2406.11838.md",
     "Paper/2504.16054.md",
     "Paper/1905.10650.md",
-    "Paper/1709.07871.md",
     "Paper/2410.24164.md",
-    "Paper/2608.11739.md",
     "Paper/2210.02747.md",
     "Paper/2602.15922.md",
     "Paper/PDF/2608.11739v1.pdf",
@@ -442,11 +335,8 @@
     "Paper/2602.23408.md",
     "Paper/2605.06388.md",
     "Paper/2607.14635.md",
-    "Knowledges/Git Clone.md",
-    "Knowledges/Neovim.md",
     "Knowledges/Git Commit.md",
     "Knowledges/Git C.md",
-    "Knowledges/PyTorch Normalization.md",
     "Topic/Git.md",
     "Paper/2506.09985.md",
     "Paper/2602.10099.md",
@@ -457,10 +347,8 @@
     "Paper/2512.04952.md",
     "Paper/PDF/Galaxea_G0_5.pdf.md",
     "Paper/PDF/Galaxea_G0_5.pdf",
-    "Paper/GalaxeaVLA.md",
     "Paper/PDF/2602.15922v1.pdf",
     "Paper/PDF/2506.09985v1.pdf",
-    "Paper/2602.15397.md",
     "Paper/PDF/2607.14635v1.pdf",
     "Paper/PDF/2510.11690v1.pdf",
     "Assets/Pasted image 20250328215644.png",

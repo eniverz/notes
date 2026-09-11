@@ -816,10 +816,10 @@
                   "type": "pdf",
                   "state": {
                     "file": "Paper/PDF/2608.11739v1.pdf",
-                    "page": 8,
-                    "left": -8,
-                    "top": 37,
-                    "zoom": 1.7757352941176472
+                    "page": 15,
+                    "left": -10,
+                    "top": 763,
+                    "zoom": 1.5012254901960784
                   },
                   "icon": "lucide-file-text",
                   "title": "2608.11739v1"
@@ -846,7 +846,9 @@
                   "type": "file-explorer",
                   "state": {
                     "sortOrder": "alphabetical",
-                    "autoReveal": false
+                    "autoReveal": false,
+                    "showSearch": false,
+                    "searchQuery": ""
                   },
                   "icon": "lucide-folder-closed",
                   "title": "Files"
@@ -1062,8 +1064,8 @@
         }
       },
       "active": "320e1edaef6e10da",
-      "mtime": "2026-09-09T01:39:15+08:00"
+      "mtime": "2026-09-10T20:46:01+08:00"
     }
   },
-  "active": "paper"
+  "active": "note"
 }
