@@ -10,7 +10,7 @@ teacher:
   - 马月昕
   - 林竹雨
 aliases: CS190C
-done: false
+done: true
 ---
 # Lecture 01
 > [!note]- slide

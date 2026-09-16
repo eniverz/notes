@@ -15,7 +15,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Lecture/Deep Learning.md",
+                    "file": "Lecture/Digital Image Processing.md",
                     "mode": "source",
                     "source": false,
                     "backlinks": true,
@@ -30,54 +30,29 @@
                     }
                   },
                   "icon": "lucide-file",
-                  "title": "Deep Learning"
+                  "title": "Digital Image Processing"
                 }
-              },
+              }
+            ]
+          },
+          {
+            "id": "7e8ce622f5688ee5",
+            "type": "tabs",
+            "children": [
               {
                 "id": "84ba175316aa7e0b",
                 "type": "leaf",
                 "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Lecture/Hands-On Large Model Engineering.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": false,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "Hands-On Large Model Engineering"
-                }
-              }
-            ],
-            "currentTab": 1
-          },
-          {
-            "id": "f3b63f2c315e9ffb",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "58580a5f52ae31b5",
-                "type": "leaf",
-                "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "Lecture/Slides/CS190C_Lec4.pdf",
-                    "page": 1,
-                    "left": -311,
-                    "top": 540,
-                    "zoom": 0.70703125
+                    "file": "Lecture/Slides/CS270_2026Fall_Lecture_01.pdf",
+                    "page": 28,
+                    "left": -29,
+                    "top": 374,
+                    "zoom": 0.54296875
                   },
                   "icon": "lucide-file-text",
-                  "title": "CS190C_Lec4"
+                  "title": "CS270_2026Fall_Lecture_01"
                 }
               }
             ]
@@ -315,8 +290,8 @@
           "workspaces:Manage workspace layouts": false
         }
       },
-      "active": "84ba175316aa7e0b",
-      "mtime": "2026-07-28T18:52:17+08:00"
+      "active": "16e886e8bf00aa45",
+      "mtime": "2026-09-16T11:56:07+08:00"
     },
     "note": {
       "main": {
@@ -634,7 +609,7 @@
         }
       },
       "active": "15b8c037055b21f9",
-      "mtime": "2026-09-09T14:31:24+08:00"
+      "mtime": "2026-09-16T10:40:13+08:00"
     },
     "paper": {
       "main": {
@@ -1067,5 +1042,5 @@
       "mtime": "2026-09-10T20:46:01+08:00"
     }
   },
-  "active": "note"
+  "active": "paper"
 }
