@@ -792,7 +792,7 @@
                   "state": {
                     "file": "Paper/PDF/2608.11739v1.pdf",
                     "page": 15,
-                    "left": -10,
+                    "left": 0,
                     "top": 763,
                     "zoom": 1.5012254901960784
                   },
@@ -1039,8 +1039,8 @@
         }
       },
       "active": "320e1edaef6e10da",
-      "mtime": "2026-09-10T20:46:01+08:00"
+      "mtime": "2026-09-17T08:25:00+08:00"
     }
   },
-  "active": "paper"
+  "active": "lecture note"
 }
