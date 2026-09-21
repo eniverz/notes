@@ -4,16 +4,29 @@
     "type": "split",
     "children": [
       {
-        "id": "4593e6d34ce1f275",
+        "id": "95ecdb37eb91446d",
         "type": "tabs",
         "children": [
           {
-            "id": "16e886e8bf00aa45",
+            "id": "1fa1e1d83093f658",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "Bases/Paper.base",
+                "viewName": "All Papers"
+              },
+              "icon": "lucide-table",
+              "title": "Paper"
+            }
+          },
+          {
+            "id": "b45e4bb684bcbcac",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lecture/Reinforcement Learning.md",
+                "file": "Paper/2602.15922.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +41,178 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Reinforcement Learning"
+              "title": "2602.15922"
+            }
+          },
+          {
+            "id": "5570e2625fafd57d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Paper/2506.09985.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "2506.09985"
+            }
+          },
+          {
+            "id": "4d3c0cef5ec1ab37",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Paper/2602.10099.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "2602.10099"
+            }
+          },
+          {
+            "id": "320e1edaef6e10da",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Paper/2608.11739.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "2608.11739"
+            }
+          },
+          {
+            "id": "1b659ef72f39bc61",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Paper/2602.23408.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "2602.23408"
             }
           }
-        ]
+        ],
+        "currentTab": 5
+      },
+      {
+        "id": "c30f0f85faf98106",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "375dc9fbd8a61898",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Paper/PDF/2602.15922v1.pdf",
+                "page": 1,
+                "left": 0,
+                "top": 842,
+                "zoom": 1.543401716178714
+              },
+              "icon": "lucide-file-text",
+              "title": "2602.15922v1"
+            }
+          },
+          {
+            "id": "0a2b1fcae2a6a2f4",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Paper/PDF/2506.09985v1.pdf",
+                "page": 1,
+                "left": 0,
+                "top": 792,
+                "zoom": 1.7757352941176474
+              },
+              "icon": "lucide-file-text",
+              "title": "2506.09985v1"
+            }
+          },
+          {
+            "id": "6b9045d7b2369277",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Paper/PDF/2602.10099v2.pdf",
+                "page": 1,
+                "left": -9,
+                "top": 792,
+                "zoom": 1.775735294117647
+              },
+              "icon": "lucide-file-text",
+              "title": "2602.10099v2"
+            }
+          },
+          {
+            "id": "dca71f5ddd9f235b",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Paper/PDF/2608.11739v1.pdf",
+                "page": 15,
+                "left": -9,
+                "top": 764,
+                "zoom": 1.775735294117647
+              },
+              "icon": "lucide-file-text",
+              "title": "2608.11739v1"
+            }
+          }
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -51,7 +232,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -108,7 +291,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cosine ann",
+                "query": "\"Diffusion Transformers\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -159,12 +342,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Develop/QueryTools.md",
+                "file": "Paper/PDF/2602.10099.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from QueryTools"
+              "title": "Outgoing links from 2602.10099"
             }
           },
           {
@@ -173,7 +356,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lecture/Electric Circuits.md",
+                "file": "Paper/PDF/2602.10099.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +366,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Electric Circuits"
+              "title": "Backlinks for 2602.10099"
             }
           },
           {
@@ -212,7 +395,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Lecture/Electric Circuits.md",
+                "file": "Paper/PDF/2602.10099.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -235,12 +418,12 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 101,
-                  "scale": 1.3925405856570754,
+                  "scale": 0.6826227075497521,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Electric Circuits"
+              "title": "Graph of 2602.10099"
             }
           }
         ]
@@ -266,9 +449,11 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "16e886e8bf00aa45",
+  "active": "1b659ef72f39bc61",
   "lastOpenFiles": [
     "Paper/2608.11739.md",
+    "Paper/2602.23408.md",
+    "Paper/PDF/2602.23408v2.pdf",
     "Lecture/Reinforcement Learning.md",
     "Lecture/Slides/CS270_2026Fall_Lecture_01.pdf",
     "Lecture/Digital Image Processing.md",
@@ -292,7 +477,6 @@
     "Paper/PDF/2608.11739v1.pdf",
     "Bases/Paper.base",
     "Paper/2602.21445.md",
-    "Paper/2602.23408.md",
     "Paper/2605.06388.md",
     "Paper/2607.14635.md",
     "Knowledges/Git Commit.md",
@@ -302,7 +486,6 @@
     "Paper/PDF/2602.10099v2.pdf",
     "Paper/PDF/Galaxea_G0_5.pdf",
     "Paper/PDF/2602.15922v1.pdf",
-    "Paper/PDF/2506.09985v1.pdf",
     "Assets/Pasted image 20250328215644.png",
     "Assets/Pasted image 20251209085217.jpeg",
     "Assets/Pasted image 20251209084923.jpeg",

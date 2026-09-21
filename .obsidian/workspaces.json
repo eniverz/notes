@@ -15,7 +15,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Lecture/Digital Image Processing.md",
+                    "file": "Lecture/Reinforcement Learning.md",
                     "mode": "source",
                     "source": false,
                     "backlinks": true,
@@ -30,29 +30,7 @@
                     }
                   },
                   "icon": "lucide-file",
-                  "title": "Digital Image Processing"
-                }
-              }
-            ]
-          },
-          {
-            "id": "7e8ce622f5688ee5",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "84ba175316aa7e0b",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "Lecture/Slides/CS270_2026Fall_Lecture_01.pdf",
-                    "page": 28,
-                    "left": -29,
-                    "top": 374,
-                    "zoom": 0.54296875
-                  },
-                  "icon": "lucide-file-text",
-                  "title": "CS270_2026Fall_Lecture_01"
+                  "title": "Reinforcement Learning"
                 }
               }
             ]
@@ -291,7 +269,7 @@
         }
       },
       "active": "16e886e8bf00aa45",
-      "mtime": "2026-09-16T11:56:07+08:00"
+      "mtime": "2026-09-21T20:32:42+08:00"
     },
     "note": {
       "main": {
@@ -1042,5 +1020,5 @@
       "mtime": "2026-09-17T08:25:00+08:00"
     }
   },
-  "active": "lecture note"
+  "active": "paper"
 }
