@@ -330,7 +330,6 @@
       "command-palette:Open command palette": false,
       "workspaces:Manage workspace layouts": false,
       "bases:Create new base": false,
-      "obsidian42-brat:BRAT": false,
       "templater-obsidian:Templater": false,
       "obsidian-git:Open Git source control": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
@@ -340,6 +339,9 @@
   },
   "active": "f37ed6885145d85a",
   "lastOpenFiles": [
+    "Assets/Pasted image 20230424103607.png",
+    "Knowledges/Xcode More Key Shortcut.md",
+    "Assets/fast-pipeline-crop.png",
     "Knowledges/RMS.md",
     "Knowledges/MacOS Install Rust.md",
     "Knowledges/Mac Free App Website.md",
@@ -367,8 +369,6 @@
     "Paper/2504.16054.md",
     "Paper/1905.10650.md",
     "Paper/2410.24164.md",
-    "Paper/2210.02747.md",
-    "Paper/2602.15922.md",
     "Paper/PDF/2608.11739v1.pdf",
     "Bases/Paper.base",
     "Paper/PDF/2602.04215v1.pdf",
@@ -383,8 +383,6 @@
     "Assets/Pasted image 20251204085823.jpeg",
     "Assets/Pasted image 20251125093620.jpeg",
     "Assets/Pasted image 20251125093711.jpeg",
-    "Assets/Pasted image 20251125093602.jpeg",
-    "Assets/Pasted image 20230424103607.png",
-    "Paper/PDF/1763528126611.png"
+    "Assets/Pasted image 20251125093602.jpeg"
   ]
 }

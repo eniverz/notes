@@ -6,13 +6,13 @@
   "interfaceFontFamily": "CodeNewRoman Nerd Font Mono",
   "enabledCssSnippets": [
     "better-bullet-points-in-edit-mode",
+    "tag-pills",
     "enlarge-image-on-horver",
     "image-cards",
-    "tag-pills",
     "pdf-list-indent-line"
   ],
   "translucency": false,
   "showViewHeader": true,
   "showRibbon": false,
-  "theme": "obsidian"
+  "theme": "system"
 }

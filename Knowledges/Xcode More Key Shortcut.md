@@ -19,6 +19,7 @@ topic:
 
 
 在这里面添加一个key, 类型选择Dictionary. 里面可以添加两个Key, `Insert Newline Above` 和 `Insert Newline Below`, 都是string类型的. 里面填充command如下:
+
 ![[Pasted image 20250819192014.png]]
 
 将这个文件保存(或者保存在其他位置, 替换回去)
