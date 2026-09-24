@@ -42,4 +42,6 @@ Linear Lesast Square Estimate
 > LLSE of $Y$ given $X$, denoted by $L[X|Y]$, is the linear function $a+bX$ that minimizes $E[(Y-a-bX)^2]$. In fact,
 > $$L[Y|X]=E(Y)+\frac{Cov(X,Y)}{Var(X)}(X-E(X))$$
 
+次高斯分布: $\mathbb E(e^{\lambda x})\leq e^{c\cdot\lambda^2}$, 这种分布在超过某一定限制之后, 概率会突然下降
+
 
