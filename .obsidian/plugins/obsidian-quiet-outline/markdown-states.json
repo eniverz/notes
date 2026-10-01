@@ -13,7 +13,7 @@
     }
   },
   "Lecture/Reinforcement Learning.md": {
-    "scroll": 6.7077747989276135,
+    "scroll": 5.935656836461126,
     "cursor": {
       "from": {
         "line": 25,
@@ -24,5 +24,8 @@
         "ch": 0
       }
     }
+  },
+  "Paper/2512.04952.md": {
+    "scroll": 41.388346354166664
   }
 }
