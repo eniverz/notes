@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Paper/2512.04952.md",
+                "file": "Lecture/Digital Image Processing.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2512.04952"
+              "title": "Digital Image Processing"
             }
           }
         ],
@@ -76,10 +76,12 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "文件列表"
             }
           },
           {
@@ -141,7 +143,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Search"
+              "title": "搜索"
             }
           }
         ],
@@ -281,18 +283,21 @@
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "command-palette:Open command palette": false,
+      "workspaces:Manage workspace layouts": false,
       "bases:Create new base": false,
       "templater-obsidian:Templater": false,
       "obsidian-git:Open Git source control": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
-      "pdf-plus:PDF++: Toggle auto-paste": false,
-      "workspaces:Manage workspace layouts": false
+      "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
   "active": "3ce72c9b2977bb42",
   "lastOpenFiles": [
+    "Paper/2512.04952.md",
+    "Lecture/未命名.md",
     "Lecture/Reinforcement Learning.md",
+    "Lecture/Untitled.md",
     "Knowledges/Xcode More Key Shortcut.md",
     "Assets/Pasted image 20230424103607.png",
     "Assets/fast-pipeline-crop.png",
@@ -308,7 +313,6 @@
     "Paper/PDF/2602.23408v2.pdf",
     "Lecture/Slides/CS270_2026Fall_Lecture_01.pdf",
     "Lecture/Digital Image Processing.md",
-    "Paper/2512.04952.md",
     "Lecture/Deep Learning.md",
     "Lecture/Slides/CS190C_Lec4.pdf",
     "Lecture/Hands-On Large Model Engineering.md",
@@ -321,7 +325,6 @@
     "Paper/2406.11838.md",
     "Paper/2504.16054.md",
     "Paper/1905.10650.md",
-    "Paper/2410.24164.md",
     "Paper/PDF/2608.11739v1.pdf",
     "Bases/Paper.base",
     "Paper/PDF/2602.04215v1.pdf",

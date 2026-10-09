@@ -13,19 +13,67 @@
     }
   },
   "Lecture/Reinforcement Learning.md": {
-    "scroll": 5.935656836461126,
+    "scroll": 5.163538873994638,
     "cursor": {
       "from": {
-        "line": 25,
-        "ch": 42
+        "line": 17,
+        "ch": 38
       },
       "to": {
-        "line": 26,
-        "ch": 0
+        "line": 17,
+        "ch": 38
       }
     }
   },
   "Paper/2512.04952.md": {
-    "scroll": 41.555013020833336
+    "scroll": 36.81990521327014,
+    "cursor": {
+      "from": {
+        "line": 52,
+        "ch": 45
+      },
+      "to": {
+        "line": 52,
+        "ch": 45
+      }
+    }
+  },
+  "Lecture/Untitled.md": {
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "scroll": 0
+  },
+  "Lecture/未命名.md": {
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    }
+  },
+  "Lecture/Digital Image Processing.md": {
+    "cursor": {
+      "from": {
+        "line": 18,
+        "ch": 0
+      },
+      "to": {
+        "line": 18,
+        "ch": 0
+      }
+    },
+    "scroll": 16.262732294637075
   }
 }
