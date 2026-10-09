@@ -54,9 +54,33 @@
               "icon": "lucide-file",
               "title": "Digital Image Processing"
             }
+          },
+          {
+            "id": "dd24d18f947a3584",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Paper/2512.04952.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "2512.04952"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -292,9 +316,15 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "3ce72c9b2977bb42",
+  "active": "dd24d18f947a3584",
   "lastOpenFiles": [
+    "Paper/2602.15397.md",
+    "Paper/PDF/2602.15397v1.pdf",
     "Paper/2512.04952.md",
+    "Paper/PDF/2512.04952v2.pdf",
+    "Paper/2608.11739.md",
+    "Paper/PDF/2608.11739v1.pdf",
+    "Lecture/Digital Image Processing.md",
     "Lecture/未命名.md",
     "Lecture/Reinforcement Learning.md",
     "Lecture/Untitled.md",
@@ -309,10 +339,8 @@
     "Knowledges/Change Default Shell.md",
     "Knowledges/Conda Activate.md",
     "Paper/2602.23408.md",
-    "Paper/2608.11739.md",
     "Paper/PDF/2602.23408v2.pdf",
     "Lecture/Slides/CS270_2026Fall_Lecture_01.pdf",
-    "Lecture/Digital Image Processing.md",
     "Lecture/Deep Learning.md",
     "Lecture/Slides/CS190C_Lec4.pdf",
     "Lecture/Hands-On Large Model Engineering.md",
@@ -323,15 +351,10 @@
     "Paper/1709.07871.md",
     "Paper/2504.05741.md",
     "Paper/2406.11838.md",
-    "Paper/2504.16054.md",
-    "Paper/1905.10650.md",
-    "Paper/PDF/2608.11739v1.pdf",
     "Bases/Paper.base",
     "Paper/PDF/2602.04215v1.pdf",
     "Paper/PDF/2602.21445v2.pdf",
     "Paper/PDF/2602.10099v2.pdf",
-    "Paper/PDF/Galaxea_G0_5.pdf",
-    "Paper/PDF/2602.15922v1.pdf",
     "Assets/Pasted image 20250328215644.png",
     "Assets/Pasted image 20251209085217.jpeg",
     "Assets/Pasted image 20251209084923.jpeg",
