@@ -1,11 +1,6 @@
 [
   "file-explorer-note-count",
-  "obsidian-quiet-outline",
-  "obsidian-style-settings",
   "templater-obsidian",
-  "lapel",
-  "editor-width-slider",
-  "highlightr-plugin",
   "obsidian-auto-pair-chinese-symbol",
   "cm-chs-patch",
   "obsidian-git",
@@ -13,5 +8,10 @@
   "pdf-plus",
   "color-folders-files",
   "live-wallpaper",
-  "better-link-clicker"
+  "better-link-clicker",
+  "lapel",
+  "obsidian-quiet-outline",
+  "obsidian-style-settings",
+  "highlightr-plugin",
+  "editor-width-slider"
 ]

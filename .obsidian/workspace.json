@@ -183,26 +183,9 @@
     "type": "split",
     "children": [
       {
-        "id": "9a3d2360b6a27bbe",
-        "type": "tabs",
-        "dimension": 40.13086150490731,
-        "children": [
-          {
-            "id": "94a8754fa1af570e",
-            "type": "leaf",
-            "state": {
-              "type": "quiet-outline",
-              "state": {},
-              "icon": "lines-of-text",
-              "title": "Quiet Outline"
-            }
-          }
-        ]
-      },
-      {
         "id": "fde24d656db5f9c0",
         "type": "tabs",
-        "dimension": 25.62704471101417,
+        "dimension": 42.80510018214936,
         "children": [
           {
             "id": "137ed9f8d4c8f28c",
@@ -255,7 +238,7 @@
       {
         "id": "b54e4c0ed8902f03",
         "type": "tabs",
-        "dimension": 34.24209378407851,
+        "dimension": 57.19489981785063,
         "children": [
           {
             "id": "d5e00afb7e231c52",
