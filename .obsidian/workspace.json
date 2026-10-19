@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "4593e6d34ce1f275",
+        "id": "b386e04b263030bf",
         "type": "tabs",
         "children": [
           {
-            "id": "16e886e8bf00aa45",
+            "id": "15b8c037055b21f9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lecture/Reinforcement Learning.md",
+                "file": "Knowledges/Git Clone.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Reinforcement Learning"
+              "title": "Git Clone"
             }
           },
           {
-            "id": "3ce72c9b2977bb42",
+            "id": "7eb86a10e14e4f24",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lecture/Digital Image Processing.md",
+                "file": "Knowledges/Neovim.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,11 +52,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Digital Image Processing"
+              "title": "Neovim"
             }
           },
           {
-            "id": "d240ba7fe1eb2136",
+            "id": "640bcf3923af50f9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Knowledges/PyTorch Normalization.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "PyTorch Normalization"
+            }
+          },
+          {
+            "id": "f37ed6885145d85a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -78,9 +102,33 @@
               "icon": "lucide-file",
               "title": "Xcode More Key Shortcut"
             }
+          },
+          {
+            "id": "09a8277ad3c1957a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Knowledges/Python Files.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Python Files"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -105,7 +153,7 @@
                 "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
-              "title": "文件列表"
+              "title": "Files"
             }
           },
           {
@@ -159,7 +207,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cosine ann",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -167,25 +215,40 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "搜索"
+              "title": "Search"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "989a8de35f3c6aa0",
     "type": "split",
     "children": [
       {
+        "id": "9a3d2360b6a27bbe",
+        "type": "tabs",
+        "dimension": 40.13086150490731,
+        "children": [
+          {
+            "id": "94a8754fa1af570e",
+            "type": "leaf",
+            "state": {
+              "type": "quiet-outline",
+              "state": {},
+              "icon": "lines-of-text",
+              "title": "Quiet Outline"
+            }
+          }
+        ]
+      },
+      {
         "id": "fde24d656db5f9c0",
         "type": "tabs",
-        "dimension": 42.80510018214936,
+        "dimension": 25.62704471101417,
         "children": [
           {
             "id": "137ed9f8d4c8f28c",
@@ -193,12 +256,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Develop/QueryTools.md",
+                "file": "Lecture/Discrete Mathematics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from QueryTools"
+              "title": "Outgoing links from SSH Server"
             }
           },
           {
@@ -207,7 +270,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lecture/Electric Circuits.md",
+                "file": "Knowledges/Python Files.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -217,7 +280,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Electric Circuits"
+              "title": "Backlinks"
             }
           },
           {
@@ -238,7 +301,7 @@
       {
         "id": "b54e4c0ed8902f03",
         "type": "tabs",
-        "dimension": 57.19489981785063,
+        "dimension": 34.24209378407851,
         "children": [
           {
             "id": "d5e00afb7e231c52",
@@ -246,7 +309,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Lecture/Electric Circuits.md",
+                "file": "Knowledges/Python Files.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -269,20 +332,19 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 101,
-                  "scale": 1.3925405856570754,
+                  "scale": 0.9390277118639846,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Electric Circuits"
+              "title": "Local graph"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -299,11 +361,12 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "d240ba7fe1eb2136",
+  "active": "09a8277ad3c1957a",
   "lastOpenFiles": [
-    "Assets/Pasted image 20250819192014.png",
     "Knowledges/Xcode More Key Shortcut.md",
+    "Knowledges/Python Files.md",
     "Lecture/Digital Image Processing.md",
+    "Assets/Pasted image 20250819192014.png",
     "Paper/2602.15397.md",
     "Lecture/Reinforcement Learning.md",
     "Lecture/Slides/CS270_2026Fall_Lecture_01.pdf",
