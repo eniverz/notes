@@ -384,9 +384,33 @@
                   "icon": "lucide-file",
                   "title": "Xcode More Key Shortcut"
                 }
+              },
+              {
+                "id": "09a8277ad3c1957a",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Knowledges/Python Files.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "Python Files"
+                }
               }
             ],
-            "currentTab": 3
+            "currentTab": 4
           }
         ],
         "direction": "vertical"
@@ -528,7 +552,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "Knowledges/Xcode More Key Shortcut.md",
+                    "file": "Knowledges/Python Files.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -567,7 +591,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "Knowledges/Xcode More Key Shortcut.md",
+                    "file": "Knowledges/Python Files.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -619,8 +643,8 @@
           "pdf-plus:PDF++: Toggle auto-paste": false
         }
       },
-      "active": "f37ed6885145d85a",
-      "mtime": "2026-09-24T08:36:48+08:00"
+      "active": "09a8277ad3c1957a",
+      "mtime": "2026-10-20T23:41:18+08:00"
     },
     "paper": {
       "main": {
@@ -1077,5 +1101,5 @@
       "mtime": "2026-09-23T15:54:21+08:00"
     }
   },
-  "active": "note"
+  "active": "lecture note"
 }

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "b386e04b263030bf",
+        "id": "4593e6d34ce1f275",
         "type": "tabs",
         "children": [
           {
-            "id": "15b8c037055b21f9",
+            "id": "16e886e8bf00aa45",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Knowledges/Git Clone.md",
+                "file": "Lecture/Reinforcement Learning.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Git Clone"
+              "title": "Reinforcement Learning"
             }
           },
           {
-            "id": "7eb86a10e14e4f24",
+            "id": "3ce72c9b2977bb42",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Knowledges/Neovim.md",
+                "file": "Lecture/Digital Image Processing.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,107 +52,33 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Neovim"
-            }
-          },
-          {
-            "id": "640bcf3923af50f9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Knowledges/PyTorch Normalization.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "PyTorch Normalization"
-            }
-          },
-          {
-            "id": "f37ed6885145d85a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Knowledges/Xcode More Key Shortcut.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Xcode More Key Shortcut"
-            }
-          },
-          {
-            "id": "09a8277ad3c1957a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Knowledges/Python Files.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Python Files"
-            }
-          },
-          {
-            "id": "2a1905e5a20ac2fd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Knowledges/Huggingface Ckpt NaN.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Huggingface Ckpt NaN"
+              "title": "Digital Image Processing"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
+      },
+      {
+        "id": "72cb1a54f9abf2ad",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "003041035aa04584",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Lecture/Slides/CS270_2026Fall_Lecture_02.pdf",
+                "page": 38,
+                "left": -13,
+                "top": 423,
+                "zoom": 1.13203125
+              },
+              "icon": "lucide-file-text",
+              "title": "CS270_2026Fall_Lecture_02"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -177,7 +103,7 @@
                 "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "文件列表"
             }
           },
           {
@@ -231,7 +157,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "cosine ann",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -239,40 +165,25 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Search"
+              "title": "搜索"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "989a8de35f3c6aa0",
     "type": "split",
     "children": [
       {
-        "id": "9a3d2360b6a27bbe",
-        "type": "tabs",
-        "dimension": 40.13086150490731,
-        "children": [
-          {
-            "id": "94a8754fa1af570e",
-            "type": "leaf",
-            "state": {
-              "type": "quiet-outline",
-              "state": {},
-              "icon": "lines-of-text",
-              "title": "Quiet Outline"
-            }
-          }
-        ]
-      },
-      {
         "id": "fde24d656db5f9c0",
         "type": "tabs",
-        "dimension": 25.62704471101417,
+        "dimension": 42.80510018214936,
         "children": [
           {
             "id": "137ed9f8d4c8f28c",
@@ -280,12 +191,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lecture/Discrete Mathematics.md",
+                "file": "Develop/QueryTools.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from SSH Server"
+              "title": "Outgoing links from QueryTools"
             }
           },
           {
@@ -294,7 +205,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Knowledges/Huggingface Ckpt NaN.md",
+                "file": "Lecture/Electric Circuits.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -304,7 +215,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Electric Circuits"
             }
           },
           {
@@ -325,7 +236,7 @@
       {
         "id": "b54e4c0ed8902f03",
         "type": "tabs",
-        "dimension": 34.24209378407851,
+        "dimension": 57.19489981785064,
         "children": [
           {
             "id": "d5e00afb7e231c52",
@@ -333,7 +244,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Knowledges/Huggingface Ckpt NaN.md",
+                "file": "Lecture/Electric Circuits.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -356,19 +267,20 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 101,
-                  "scale": 0.9390277118639846,
+                  "scale": 1.3925405856570754,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Local graph"
+              "title": "Graph of Electric Circuits"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -385,16 +297,21 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "2a1905e5a20ac2fd",
+  "active": "3ce72c9b2977bb42",
   "lastOpenFiles": [
+    "Lecture/Slides/CS270_2026Fall_Lecture_02.pdf",
+    "Lecture/Digital Image Processing.md",
+    "Lecture/Reinforcement Learning.md",
+    "Lecture/Slides/CS270_2026Fall_Lecture_01.pdf",
     "Knowledges/Python Files.md",
     "Knowledges/Huggingface Ckpt NaN.md",
     "Knowledges/Xcode More Key Shortcut.md",
-    "Lecture/Digital Image Processing.md",
+    "Lecture/Hands-On Large Model Engineering.md",
+    "Lecture/Slides/CS270_2026Fall_Lecture_05.pdf",
+    "Lecture/Slides/CS270_2026Fall_Lecture_04.pdf",
+    "Lecture/Slides/CS270_2026Fall_Lecture_03.pdf",
     "Assets/Pasted image 20250819192014.png",
     "Paper/2602.15397.md",
-    "Lecture/Reinforcement Learning.md",
-    "Lecture/Slides/CS270_2026Fall_Lecture_01.pdf",
     "Paper/PDF/2602.15397v1.pdf",
     "Paper/2512.04952.md",
     "Paper/2510.11690.md",
@@ -416,16 +333,10 @@
     "Paper/PDF/2602.23408v2.pdf",
     "Lecture/Deep Learning.md",
     "Lecture/Slides/CS190C_Lec4.pdf",
-    "Lecture/Hands-On Large Model Engineering.md",
     "Knowledges/Neovim.md",
     "Knowledges/Git Pull.md",
     "Knowledges/Git Fetch.md",
     "Knowledges/PyTorch Normalization.md",
-    "Paper/1709.07871.md",
-    "Bases/Paper.base",
-    "Paper/PDF/2602.04215v1.pdf",
-    "Paper/PDF/2602.21445v2.pdf",
-    "Paper/PDF/2602.10099v2.pdf",
     "Assets/Pasted image 20250328215644.png",
     "Assets/Pasted image 20251209085217.jpeg",
     "Assets/Pasted image 20251209084923.jpeg",
