@@ -67,15 +67,15 @@
   "Lecture/Digital Image Processing.md": {
     "cursor": {
       "from": {
-        "line": 99,
-        "ch": 0
+        "line": 453,
+        "ch": 28
       },
       "to": {
-        "line": 99,
-        "ch": 0
+        "line": 453,
+        "ch": 28
       }
     },
-    "scroll": 86.02805999032414
+    "scroll": 442.8382161458333
   },
   "Paper/2602.15397.md": {
     "cursor": {
@@ -182,5 +182,18 @@
         "ch": 19
       }
     }
+  },
+  "Lecture/Deep Learning.md": {
+    "cursor": {
+      "from": {
+        "line": 243,
+        "ch": 0
+      },
+      "to": {
+        "line": 243,
+        "ch": 0
+      }
+    },
+    "scroll": 259.3230794270833
   }
 }
