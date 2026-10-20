@@ -126,9 +126,33 @@
               "icon": "lucide-file",
               "title": "Python Files"
             }
+          },
+          {
+            "id": "2a1905e5a20ac2fd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Knowledges/Huggingface Ckpt NaN.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Huggingface Ckpt NaN"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -270,7 +294,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Knowledges/Python Files.md",
+                "file": "Knowledges/Huggingface Ckpt NaN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -309,7 +333,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Knowledges/Python Files.md",
+                "file": "Knowledges/Huggingface Ckpt NaN.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -361,10 +385,11 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "09a8277ad3c1957a",
+  "active": "2a1905e5a20ac2fd",
   "lastOpenFiles": [
-    "Knowledges/Xcode More Key Shortcut.md",
     "Knowledges/Python Files.md",
+    "Knowledges/Huggingface Ckpt NaN.md",
+    "Knowledges/Xcode More Key Shortcut.md",
     "Lecture/Digital Image Processing.md",
     "Assets/Pasted image 20250819192014.png",
     "Paper/2602.15397.md",
@@ -397,7 +422,6 @@
     "Knowledges/Git Fetch.md",
     "Knowledges/PyTorch Normalization.md",
     "Paper/1709.07871.md",
-    "Paper/2504.05741.md",
     "Bases/Paper.base",
     "Paper/PDF/2602.04215v1.pdf",
     "Paper/PDF/2602.21445v2.pdf",

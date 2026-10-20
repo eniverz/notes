@@ -131,5 +131,33 @@
     },
     "expandedKeys": [],
     "scroll": 0
+  },
+  "Knowledges/Python Files.md": {
+    "cursor": {
+      "from": {
+        "line": 9,
+        "ch": 6
+      },
+      "to": {
+        "line": 9,
+        "ch": 6
+      }
+    },
+    "scroll": 2.4809384164222874,
+    "expandedKeys": []
+  },
+  "Knowledges/Huggingface Ckpt NaN.md": {
+    "cursor": {
+      "from": {
+        "line": 26,
+        "ch": 0
+      },
+      "to": {
+        "line": 26,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [],
+    "scroll": 3.5102639296187683
   }
 }
