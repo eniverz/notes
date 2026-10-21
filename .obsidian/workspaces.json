@@ -59,6 +59,28 @@
               }
             ],
             "currentTab": 1
+          },
+          {
+            "id": "82c5428f2bd55122",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "ad411d37ba68f156",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "Lecture/Slides/CS270_2026Fall_Lecture_05.pdf",
+                    "page": 9,
+                    "left": -17,
+                    "top": 132,
+                    "zoom": 0.89765625
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "CS270_2026Fall_Lecture_05"
+                }
+              }
+            ]
           }
         ],
         "direction": "vertical"
@@ -83,7 +105,7 @@
                     "searchQuery": ""
                   },
                   "icon": "lucide-folder-closed",
-                  "title": "文件列表"
+                  "title": "Files"
                 }
               },
               {
@@ -137,7 +159,7 @@
                 "state": {
                   "type": "search",
                   "state": {
-                    "query": "cosine ann",
+                    "query": "",
                     "matchingCase": false,
                     "explainSearch": false,
                     "collapseAll": false,
@@ -145,7 +167,7 @@
                     "sortOrder": "alphabetical"
                   },
                   "icon": "lucide-search",
-                  "title": "搜索"
+                  "title": "Search"
                 }
               }
             ],
@@ -153,8 +175,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 300,
-        "collapsed": true
+        "width": 300
       },
       "right": {
         "id": "989a8de35f3c6aa0",
@@ -185,7 +206,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "Lecture/Electric Circuits.md",
+                    "file": "Lecture/Digital Image Processing.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -195,7 +216,7 @@
                     "unlinkedCollapsed": true
                   },
                   "icon": "links-coming-in",
-                  "title": "Backlinks for Electric Circuits"
+                  "title": "Backlinks"
                 }
               },
               {
@@ -216,7 +237,7 @@
           {
             "id": "b54e4c0ed8902f03",
             "type": "tabs",
-            "dimension": 57.19489981785063,
+            "dimension": 57.19489981785064,
             "children": [
               {
                 "id": "d5e00afb7e231c52",
@@ -224,7 +245,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "Lecture/Electric Circuits.md",
+                    "file": "Lecture/Digital Image Processing.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -252,15 +273,14 @@
                     }
                   },
                   "icon": "lucide-git-fork",
-                  "title": "Graph of Electric Circuits"
+                  "title": "Local graph"
                 }
               }
             ]
           }
         ],
         "direction": "horizontal",
-        "width": 300,
-        "collapsed": true
+        "width": 300
       },
       "left-ribbon": {
         "hiddenItems": {
@@ -278,7 +298,7 @@
         }
       },
       "active": "3ce72c9b2977bb42",
-      "mtime": "2026-10-19T15:50:35+08:00"
+      "mtime": "2026-10-21T16:25:25+08:00"
     },
     "note": {
       "main": {
@@ -1101,5 +1121,5 @@
       "mtime": "2026-09-23T15:54:21+08:00"
     }
   },
-  "active": "lecture note"
+  "active": "note"
 }
