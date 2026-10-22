@@ -218,7 +218,8 @@
               "title": "Search"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -270,7 +271,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Knowledges/Python Files.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -309,7 +309,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Knowledges/Python Files.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -361,10 +360,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "09a8277ad3c1957a",
+  "active": "a46f84ed0d0f514a",
   "lastOpenFiles": [
-    "Paper/2602.04215.md",
     "Knowledges/Python Files.md",
+    "Paper/2602.04215.md",
     "Lecture/Digital Image Processing.md",
     "Lecture/Slides/CS270_2026Fall_Lecture_05.pdf",
     "Lecture/Slides/CS270_2026Fall_Lecture_04.pdf",
