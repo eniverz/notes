@@ -126,9 +126,33 @@
               "icon": "lucide-file",
               "title": "Python Files"
             }
+          },
+          {
+            "id": "30542850151aa102",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Paper/2602.04215.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "2602.04215"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -270,7 +294,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Knowledges/Python Files.md",
+                "file": "Paper/2602.04215.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -309,7 +333,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Knowledges/Python Files.md",
+                "file": "Paper/2602.04215.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -361,8 +385,9 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "09a8277ad3c1957a",
+  "active": "30542850151aa102",
   "lastOpenFiles": [
+    "Knowledges/Python Files.md",
     "Lecture/Digital Image Processing.md",
     "Lecture/Slides/CS270_2026Fall_Lecture_05.pdf",
     "Lecture/Slides/CS270_2026Fall_Lecture_04.pdf",
@@ -371,7 +396,6 @@
     "Lecture/Slides/CS270_2026Fall_Lecture_03.pdf",
     "Lecture/Slides/CS270_2026Fall_Lecture_02.pdf",
     "Lecture/Slides/CS270_2026Fall_Lecture_01.pdf",
-    "Knowledges/Python Files.md",
     "Knowledges/Huggingface Ckpt NaN.md",
     "Knowledges/Xcode More Key Shortcut.md",
     "Lecture/Hands-On Large Model Engineering.md",
