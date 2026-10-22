@@ -126,33 +126,9 @@
               "icon": "lucide-file",
               "title": "Python Files"
             }
-          },
-          {
-            "id": "30542850151aa102",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Paper/2602.04215.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "2602.04215"
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -294,7 +270,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Paper/2602.04215.md",
+                "file": "Knowledges/Python Files.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -333,7 +309,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Paper/2602.04215.md",
+                "file": "Knowledges/Python Files.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -385,8 +361,9 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "30542850151aa102",
+  "active": "09a8277ad3c1957a",
   "lastOpenFiles": [
+    "Paper/2602.04215.md",
     "Knowledges/Python Files.md",
     "Lecture/Digital Image Processing.md",
     "Lecture/Slides/CS270_2026Fall_Lecture_05.pdf",
