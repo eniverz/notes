@@ -80,14 +80,15 @@
   "Paper/2602.15397.md": {
     "cursor": {
       "from": {
-        "line": 19,
+        "line": 239,
         "ch": 0
       },
       "to": {
-        "line": 19,
+        "line": 239,
         "ch": 0
       }
-    }
+    },
+    "scroll": 228.9756148063201
   },
   "Paper/2510.11690.md": {
     "scroll": 31.281713800952485,
@@ -135,12 +136,12 @@
   "Knowledges/Python Files.md": {
     "cursor": {
       "from": {
-        "line": 549,
-        "ch": 51
+        "line": 41,
+        "ch": 0
       },
       "to": {
-        "line": 549,
-        "ch": 51
+        "line": 41,
+        "ch": 0
       }
     },
     "scroll": 0,
@@ -209,5 +210,80 @@
         "ch": 74
       }
     }
+  },
+  "Paper/2602.23408.md": {
+    "cursor": {
+      "from": {
+        "line": 27,
+        "ch": 42
+      },
+      "to": {
+        "line": 27,
+        "ch": 42
+      }
+    }
+  },
+  "Paper/2608.11739.md": {
+    "cursor": {
+      "from": {
+        "line": 66,
+        "ch": 24
+      },
+      "to": {
+        "line": 66,
+        "ch": 24
+      }
+    },
+    "scroll": 48.13142902515037
+  },
+  "Paper/2603.03596.md": {
+    "cursor": {
+      "from": {
+        "line": 23,
+        "ch": 23
+      },
+      "to": {
+        "line": 23,
+        "ch": 23
+      }
+    },
+    "scroll": 0
+  },
+  "Paper/pi0.6.md": {
+    "cursor": {
+      "from": {
+        "line": 35,
+        "ch": 0
+      },
+      "to": {
+        "line": 35,
+        "ch": 0
+      }
+    }
+  },
+  "Paper/PDF/Untitled.md": {
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    }
+  },
+  "Paper/2604.15483.md": {
+    "cursor": {
+      "from": {
+        "line": 39,
+        "ch": 9
+      },
+      "to": {
+        "line": 39,
+        "ch": 9
+      }
+    },
+    "scroll": 20.6
   }
 }

@@ -520,7 +520,8 @@
                   "title": "Search"
                 }
               }
-            ]
+            ],
+            "currentTab": 2
           }
         ],
         "direction": "horizontal",
@@ -664,7 +665,7 @@
         }
       },
       "active": "09a8277ad3c1957a",
-      "mtime": "2026-10-20T23:41:18+08:00"
+      "mtime": "2026-10-24T17:37:41+08:00"
     },
     "paper": {
       "main": {
@@ -1121,5 +1122,5 @@
       "mtime": "2026-09-23T15:54:21+08:00"
     }
   },
-  "active": "note"
+  "active": "paper"
 }
