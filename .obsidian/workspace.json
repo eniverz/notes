@@ -67,33 +67,9 @@
               "icon": "lucide-file",
               "title": "2506.09985"
             }
-          },
-          {
-            "id": "4d3c0cef5ec1ab37",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Paper/2602.10099.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "2602.10099"
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       },
       {
         "id": "c30f0f85faf98106",
@@ -107,7 +83,7 @@
               "state": {
                 "file": "Paper/PDF/2602.15922v1.pdf",
                 "page": 1,
-                "left": 0,
+                "left": -65,
                 "top": 842,
                 "zoom": 1.543401716178714
               },
@@ -123,32 +99,16 @@
               "state": {
                 "file": "Paper/PDF/2506.09985v1.pdf",
                 "page": 1,
-                "left": 0,
+                "left": -9,
                 "top": 792,
-                "zoom": 1.7757352941176474
+                "zoom": 1.775735294117647
               },
               "icon": "lucide-file-text",
               "title": "2506.09985v1"
             }
-          },
-          {
-            "id": "6b9045d7b2369277",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Paper/PDF/2602.10099v2.pdf",
-                "page": 1,
-                "left": -8,
-                "top": 792,
-                "zoom": 1.7757352941176474
-              },
-              "icon": "lucide-file-text",
-              "title": "2602.10099v2"
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -384,10 +344,15 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "4d3c0cef5ec1ab37",
+  "active": "5570e2625fafd57d",
   "lastOpenFiles": [
+    "Paper/PDF/2506.09985v1.pdf",
     "Paper/PDF/2602.10099v2.pdf",
+    "Paper/2506.09985.md",
     "Paper/2602.10099.md",
+    "Paper/2605.06388.md",
+    "Paper/PDF/2602.15922v1.pdf",
+    "Knowledges/PyTorch Normalization.md",
     "Paper/PDF/2608.11739v1.pdf",
     "Paper/2608.11739.md",
     "Paper/PDF/2604.15483v2.pdf",
@@ -408,8 +373,6 @@
     "Lecture/Reinforcement Learning.md",
     "Lecture/Deep Learning.md",
     "Lecture/Slides/CS270_2026Fall_Lecture_03.pdf",
-    "Lecture/Slides/CS270_2026Fall_Lecture_02.pdf",
-    "Lecture/Slides/CS270_2026Fall_Lecture_01.pdf",
     "Knowledges/Huggingface Ckpt NaN.md",
     "Knowledges/Xcode More Key Shortcut.md",
     "Lecture/Hands-On Large Model Engineering.md",
@@ -421,9 +384,6 @@
     "Assets/Pasted image 20230424103607.png",
     "Assets/fast-pipeline-crop.png",
     "Knowledges/RMS.md",
-    "Knowledges/MacOS Install Rust.md",
-    "Knowledges/Mac Free App Website.md",
-    "Knowledges/DCT.md",
     "Assets/Pasted image 20250328215644.png",
     "Assets/Pasted image 20251209085217.jpeg",
     "Assets/Pasted image 20251209084923.jpeg",

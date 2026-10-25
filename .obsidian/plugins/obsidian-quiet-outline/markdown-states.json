@@ -289,12 +289,51 @@
   "Paper/2602.10099.md": {
     "cursor": {
       "from": {
-        "line": 24,
+        "line": 81,
         "ch": 0
       },
       "to": {
-        "line": 24,
+        "line": 81,
         "ch": 0
+      }
+    },
+    "scroll": 0
+  },
+  "Knowledges/PyTorch Normalization.md": {
+    "cursor": {
+      "from": {
+        "line": 134,
+        "ch": 45
+      },
+      "to": {
+        "line": 134,
+        "ch": 45
+      }
+    },
+    "scroll": 101.19233630952381
+  },
+  "Paper/2506.09985.md": {
+    "cursor": {
+      "from": {
+        "line": 30,
+        "ch": 0
+      },
+      "to": {
+        "line": 30,
+        "ch": 0
+      }
+    },
+    "scroll": 0
+  },
+  "Paper/2605.06388.md": {
+    "cursor": {
+      "from": {
+        "line": 21,
+        "ch": 17
+      },
+      "to": {
+        "line": 21,
+        "ch": 17
       }
     }
   }
