@@ -27,7 +27,7 @@
     }
   },
   "Paper/2512.04952.md": {
-    "scroll": 13.265446224256292,
+    "scroll": 5.913043478260869,
     "cursor": {
       "from": {
         "line": 52,
@@ -199,15 +199,15 @@
   },
   "Paper/2602.04215.md": {
     "expandedKeys": [],
-    "scroll": 33.729166666666664,
+    "scroll": 44.2919921875,
     "cursor": {
       "from": {
-        "line": 44,
-        "ch": 74
+        "line": 62,
+        "ch": 34
       },
       "to": {
-        "line": 44,
-        "ch": 74
+        "line": 62,
+        "ch": 34
       }
     }
   },
@@ -239,15 +239,15 @@
   "Paper/2603.03596.md": {
     "cursor": {
       "from": {
-        "line": 23,
-        "ch": 23
+        "line": 27,
+        "ch": 30
       },
       "to": {
-        "line": 23,
-        "ch": 23
+        "line": 27,
+        "ch": 30
       }
     },
-    "scroll": 0
+    "scroll": 10.791762013729977
   },
   "Paper/pi0.6.md": {
     "cursor": {
@@ -297,7 +297,7 @@
         "ch": 0
       }
     },
-    "scroll": 0
+    "scroll": 40.592625
   },
   "Knowledges/PyTorch Normalization.md": {
     "cursor": {
@@ -316,11 +316,11 @@
     "cursor": {
       "from": {
         "line": 30,
-        "ch": 0
+        "ch": 72
       },
       "to": {
         "line": 30,
-        "ch": 0
+        "ch": 72
       }
     },
     "scroll": 0
@@ -602,5 +602,106 @@
       }
     },
     "scroll": 14.276887871853546
+  },
+  "Paper/2411.19842.md": {
+    "cursor": {
+      "from": {
+        "line": 27,
+        "ch": 0
+      },
+      "to": {
+        "line": 27,
+        "ch": 0
+      }
+    }
+  },
+  "Paper/2506.01583.md": {
+    "cursor": {
+      "from": {
+        "line": 75,
+        "ch": 38
+      },
+      "to": {
+        "line": 75,
+        "ch": 38
+      }
+    },
+    "scroll": 56.68894867146227
+  },
+  "Paper/2509.09372.md": {
+    "cursor": {
+      "from": {
+        "line": 31,
+        "ch": 10
+      },
+      "to": {
+        "line": 31,
+        "ch": 10
+      }
+    },
+    "scroll": 32.800130208333336
+  },
+  "Paper/2602.07322.md": {
+    "cursor": {
+      "from": {
+        "line": 24,
+        "ch": 0
+      },
+      "to": {
+        "line": 24,
+        "ch": 0
+      }
+    },
+    "scroll": 3.2951945080091534
+  },
+  "Paper/2508.21112.md": {
+    "cursor": {
+      "from": {
+        "line": 18,
+        "ch": 0
+      },
+      "to": {
+        "line": 18,
+        "ch": 0
+      }
+    }
+  },
+  "Paper/2602.21445.md": {
+    "cursor": {
+      "from": {
+        "line": 18,
+        "ch": 0
+      },
+      "to": {
+        "line": 18,
+        "ch": 0
+      }
+    },
+    "scroll": 35.63495812754992
+  },
+  "Paper/2607.14635.md": {
+    "cursor": {
+      "from": {
+        "line": 45,
+        "ch": 0
+      },
+      "to": {
+        "line": 45,
+        "ch": 0
+      }
+    }
+  },
+  "Paper/2404.08471.md": {
+    "cursor": {
+      "from": {
+        "line": 37,
+        "ch": 3
+      },
+      "to": {
+        "line": 37,
+        "ch": 3
+      }
+    },
+    "scroll": 12.54233409610984
   }
 }

@@ -11,24 +11,13 @@
             "id": "1fa1e1d83093f658",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "Paper/2406.11838.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "Bases/Paper.base",
+                "viewName": "All Papers"
               },
-              "icon": "lucide-file",
-              "title": "2406.11838"
+              "icon": "lucide-table",
+              "title": "Paper"
             }
           },
           {
@@ -78,8 +67,33 @@
               "icon": "lucide-file",
               "title": "2506.09985"
             }
+          },
+          {
+            "id": "8226aeb9e210f93b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Paper/2404.08471.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "2404.08471"
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       },
       {
         "id": "c30f0f85faf98106",
@@ -108,17 +122,34 @@
               "type": "pdf",
               "state": {
                 "file": "Paper/PDF/2506.09985v1.pdf",
-                "page": 1,
+                "page": 8,
                 "left": -9,
-                "top": 792,
+                "top": 738,
                 "zoom": 1.775735294117647
               },
               "icon": "lucide-file-text",
               "title": "2506.09985v1"
             }
+          },
+          {
+            "id": "59b908bd7701be2e",
+            "type": "leaf",
+            "dimension": 50,
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Paper/PDF/2404.08471v1.pdf",
+                "page": 3,
+                "left": -9,
+                "top": 526,
+                "zoom": 1.775735294117647
+              },
+              "icon": "lucide-file-text",
+              "title": "2404.08471v1"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -197,7 +228,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"Diffusion Transformers\"",
+                "query": "tag:#VLA",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -354,43 +385,43 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "1fa1e1d83093f658",
+  "active": "59b908bd7701be2e",
   "lastOpenFiles": [
+    "Paper/2404.08471.md",
+    "Paper/PDF/2404.08471v1.pdf",
+    "Paper/PDF/2506.09985v1.pdf",
+    "Paper/2506.09985.md",
     "Bases/Paper.base",
+    "Paper/2607.14635.md",
+    "Paper/2602.21445.md",
+    "Paper/2602.10099.md",
+    "Paper/2508.21112.md",
+    "Paper/pi0.6.md",
+    "Paper/2603.03596.md",
+    "Paper/2602.07322.md",
+    "Paper/PDF/2602.07322v2.pdf",
+    "Paper/2602.04215.md",
+    "Paper/2512.04952.md",
+    "Paper/2509.09372.md",
+    "Paper/2506.01583.md",
+    "Paper/2602.15922.md",
+    "Paper/PDF/2506.01583v2.pdf",
+    "Paper/2411.19842.md",
+    "Paper/2406.11838.md",
     "Paper/2309.15505.md",
     "Paper/2303.04137.md",
     "Paper/2111.06377.md",
-    "Paper/2602.15922.md",
     "Paper/1706.03762.md",
     "Paper/1905.10650.md",
     "Paper/2608.11739.md",
     "Paper/2605.06388.md",
     "Paper/2604.15483.md",
     "Paper/2602.23408.md",
-    "Paper/2602.15397.md",
-    "Paper/2510.23116.md",
-    "Paper/2510.11690.md",
-    "Paper/2507.13231.md",
-    "Paper/2506.09985.md",
-    "Paper/2505.11123.md",
-    "Paper/2504.16054.md",
-    "Paper/2504.05741.md",
-    "Paper/2502.13923.md",
-    "Paper/2410.06940.md",
-    "Paper/2406.09246.md",
-    "Paper/2203.01941.md",
-    "Paper/1709.07871.md",
-    "Paper/2410.24164.md",
-    "Paper/2212.09748.md",
-    "Paper/PDF/2506.09985v1.pdf",
     "Paper/PDF/2602.10099v2.pdf",
     "Paper/PDF/2602.15922v1.pdf",
     "Paper/PDF/2608.11739v1.pdf",
     "Paper/PDF/2604.15483v2.pdf",
     "Paper/PDF/2603.03596v2.pdf",
-    "Paper/PDF/2602.23408v2.pdf",
-    "Lecture/Slides/CS270_2026Fall_Lecture_05.pdf",
-    "Lecture/Slides/CS270_2026Fall_Lecture_04.pdf",
     "Assets/Pasted image 20250819192014.png",
     "Assets/Pasted image 20230424103607.png",
     "Assets/fast-pipeline-crop.png",
