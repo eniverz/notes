@@ -11,13 +11,24 @@
             "id": "1fa1e1d83093f658",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "Bases/Paper.base",
-                "viewName": "All Papers"
+                "file": "Paper/2406.11838.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-table",
-              "title": "Paper"
+              "icon": "lucide-file",
+              "title": "2406.11838"
             }
           },
           {
@@ -68,8 +79,7 @@
               "title": "2506.09985"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "c30f0f85faf98106",
@@ -344,46 +354,46 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "5570e2625fafd57d",
+  "active": "1fa1e1d83093f658",
   "lastOpenFiles": [
+    "Bases/Paper.base",
+    "Paper/2309.15505.md",
+    "Paper/2303.04137.md",
+    "Paper/2111.06377.md",
+    "Paper/2602.15922.md",
+    "Paper/1706.03762.md",
+    "Paper/1905.10650.md",
+    "Paper/2608.11739.md",
+    "Paper/2605.06388.md",
+    "Paper/2604.15483.md",
+    "Paper/2602.23408.md",
+    "Paper/2602.15397.md",
+    "Paper/2510.23116.md",
+    "Paper/2510.11690.md",
+    "Paper/2507.13231.md",
+    "Paper/2506.09985.md",
+    "Paper/2505.11123.md",
+    "Paper/2504.16054.md",
+    "Paper/2504.05741.md",
+    "Paper/2502.13923.md",
+    "Paper/2410.06940.md",
+    "Paper/2406.09246.md",
+    "Paper/2203.01941.md",
+    "Paper/1709.07871.md",
+    "Paper/2410.24164.md",
+    "Paper/2212.09748.md",
     "Paper/PDF/2506.09985v1.pdf",
     "Paper/PDF/2602.10099v2.pdf",
-    "Paper/2506.09985.md",
-    "Paper/2602.10099.md",
-    "Paper/2605.06388.md",
     "Paper/PDF/2602.15922v1.pdf",
-    "Knowledges/PyTorch Normalization.md",
     "Paper/PDF/2608.11739v1.pdf",
-    "Paper/2608.11739.md",
     "Paper/PDF/2604.15483v2.pdf",
-    "Paper/2604.15483.md",
-    "Paper/2504.16054.md",
-    "Paper/PDF/Untitled.md",
-    "Paper/2603.03596.md",
-    "Paper/pi0.6.md",
     "Paper/PDF/2603.03596v2.pdf",
-    "Paper/2602.15397.md",
-    "Paper/2602.23408.md",
     "Paper/PDF/2602.23408v2.pdf",
-    "Knowledges/Python Files.md",
-    "Paper/2602.04215.md",
-    "Lecture/Digital Image Processing.md",
     "Lecture/Slides/CS270_2026Fall_Lecture_05.pdf",
     "Lecture/Slides/CS270_2026Fall_Lecture_04.pdf",
-    "Lecture/Reinforcement Learning.md",
-    "Lecture/Deep Learning.md",
-    "Lecture/Slides/CS270_2026Fall_Lecture_03.pdf",
-    "Knowledges/Huggingface Ckpt NaN.md",
-    "Knowledges/Xcode More Key Shortcut.md",
-    "Lecture/Hands-On Large Model Engineering.md",
     "Assets/Pasted image 20250819192014.png",
-    "Paper/2512.04952.md",
-    "Paper/2510.11690.md",
-    "Lecture/未命名.md",
-    "Lecture/Untitled.md",
     "Assets/Pasted image 20230424103607.png",
     "Assets/fast-pipeline-crop.png",
-    "Knowledges/RMS.md",
     "Assets/Pasted image 20250328215644.png",
     "Assets/Pasted image 20251209085217.jpeg",
     "Assets/Pasted image 20251209084923.jpeg",

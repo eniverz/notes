@@ -80,18 +80,18 @@
   "Paper/2602.15397.md": {
     "cursor": {
       "from": {
-        "line": 239,
-        "ch": 0
+        "line": 236,
+        "ch": 2
       },
       "to": {
-        "line": 239,
-        "ch": 0
+        "line": 236,
+        "ch": 2
       }
     },
-    "scroll": 228.9756148063201
+    "scroll": 228.91245380988786
   },
   "Paper/2510.11690.md": {
-    "scroll": 31.281713800952485,
+    "scroll": 10.503432494279176,
     "cursor": {
       "from": {
         "line": 48,
@@ -214,12 +214,12 @@
   "Paper/2602.23408.md": {
     "cursor": {
       "from": {
-        "line": 27,
-        "ch": 42
+        "line": 19,
+        "ch": 2
       },
       "to": {
-        "line": 27,
-        "ch": 42
+        "line": 19,
+        "ch": 2
       }
     }
   },
@@ -284,7 +284,7 @@
         "ch": 0
       }
     },
-    "scroll": 40.6181640625
+    "scroll": 0
   },
   "Paper/2602.10099.md": {
     "cursor": {
@@ -328,13 +328,279 @@
   "Paper/2605.06388.md": {
     "cursor": {
       "from": {
+        "line": 17,
+        "ch": 0
+      },
+      "to": {
+        "line": 17,
+        "ch": 0
+      }
+    }
+  },
+  "Paper/1706.03762.md": {
+    "cursor": {
+      "from": {
+        "line": 18,
+        "ch": 13
+      },
+      "to": {
+        "line": 18,
+        "ch": 13
+      }
+    }
+  },
+  "Paper/2602.15922.md": {
+    "cursor": {
+      "from": {
+        "line": 13,
+        "ch": 0
+      },
+      "to": {
+        "line": 13,
+        "ch": 0
+      }
+    }
+  },
+  "Paper/2010.11929.md": {
+    "cursor": {
+      "from": {
+        "line": 33,
+        "ch": 0
+      },
+      "to": {
+        "line": 33,
+        "ch": 0
+      }
+    },
+    "scroll": 0
+  },
+  "Paper/2210.02747.md": {
+    "cursor": {
+      "from": {
+        "line": 17,
+        "ch": 0
+      },
+      "to": {
+        "line": 17,
+        "ch": 0
+      }
+    },
+    "scroll": 7.002288329519451
+  },
+  "Paper/2212.09748.md": {
+    "cursor": {
+      "from": {
+        "line": 18,
+        "ch": 0
+      },
+      "to": {
+        "line": 18,
+        "ch": 0
+      }
+    }
+  },
+  "Paper/2410.24164.md": {
+    "cursor": {
+      "from": {
+        "line": 172,
+        "ch": 80
+      },
+      "to": {
+        "line": 172,
+        "ch": 80
+      }
+    },
+    "scroll": 156.3638870713942
+  },
+  "Paper/1709.07871.md": {
+    "cursor": {
+      "from": {
+        "line": 26,
+        "ch": 10
+      },
+      "to": {
+        "line": 26,
+        "ch": 10
+      }
+    },
+    "scroll": 73.41459862604628
+  },
+  "Paper/2203.01941.md": {
+    "cursor": {
+      "from": {
         "line": 21,
-        "ch": 17
+        "ch": 199
       },
       "to": {
         "line": 21,
-        "ch": 17
+        "ch": 199
+      }
+    },
+    "scroll": 4.221967963386728
+  },
+  "Paper/2406.09246.md": {
+    "cursor": {
+      "from": {
+        "line": 26,
+        "ch": 0
+      },
+      "to": {
+        "line": 26,
+        "ch": 0
       }
     }
+  },
+  "Paper/2410.06940.md": {
+    "cursor": {
+      "from": {
+        "line": 18,
+        "ch": 11
+      },
+      "to": {
+        "line": 18,
+        "ch": 11
+      }
+    }
+  },
+  "Paper/2502.13923.md": {
+    "cursor": {
+      "from": {
+        "line": 18,
+        "ch": 0
+      },
+      "to": {
+        "line": 18,
+        "ch": 0
+      }
+    },
+    "scroll": 46.593377976190474
+  },
+  "Paper/2504.05741.md": {
+    "cursor": {
+      "from": {
+        "line": 15,
+        "ch": 0
+      },
+      "to": {
+        "line": 15,
+        "ch": 0
+      }
+    },
+    "scroll": 22.2333984375
+  },
+  "Paper/2504.16054.md": {
+    "cursor": {
+      "from": {
+        "line": 34,
+        "ch": 0
+      },
+      "to": {
+        "line": 34,
+        "ch": 0
+      }
+    },
+    "scroll": 80.75130208333333
+  },
+  "Paper/2505.11123.md": {
+    "cursor": {
+      "from": {
+        "line": 50,
+        "ch": 10
+      },
+      "to": {
+        "line": 50,
+        "ch": 10
+      }
+    },
+    "scroll": 45.276620370370374
+  },
+  "Paper/2507.13231.md": {
+    "cursor": {
+      "from": {
+        "line": 27,
+        "ch": 10
+      },
+      "to": {
+        "line": 27,
+        "ch": 10
+      }
+    },
+    "scroll": 26.09258957566279
+  },
+  "Paper/2510.23116.md": {
+    "cursor": {
+      "from": {
+        "line": 19,
+        "ch": 0
+      },
+      "to": {
+        "line": 19,
+        "ch": 0
+      }
+    }
+  },
+  "Paper/1905.10650.md": {
+    "cursor": {
+      "from": {
+        "line": 22,
+        "ch": 0
+      },
+      "to": {
+        "line": 22,
+        "ch": 0
+      }
+    }
+  },
+  "Paper/2111.06377.md": {
+    "cursor": {
+      "from": {
+        "line": 69,
+        "ch": 0
+      },
+      "to": {
+        "line": 69,
+        "ch": 0
+      }
+    },
+    "scroll": 0
+  },
+  "Paper/2303.04137.md": {
+    "cursor": {
+      "from": {
+        "line": 150,
+        "ch": 0
+      },
+      "to": {
+        "line": 150,
+        "ch": 0
+      }
+    },
+    "scroll": 115.97588686268861
+  },
+  "Paper/2309.15505.md": {
+    "cursor": {
+      "from": {
+        "line": 46,
+        "ch": 0
+      },
+      "to": {
+        "line": 46,
+        "ch": 0
+      }
+    },
+    "scroll": 3.7414187643020593
+  },
+  "Paper/2406.11838.md": {
+    "cursor": {
+      "from": {
+        "line": 33,
+        "ch": 25
+      },
+      "to": {
+        "line": 33,
+        "ch": 25
+      }
+    },
+    "scroll": 14.276887871853546
   }
 }
