@@ -140,9 +140,9 @@
               "state": {
                 "file": "Paper/PDF/2404.08471v1.pdf",
                 "page": 3,
-                "left": -9,
-                "top": 526,
-                "zoom": 1.775735294117647
+                "left": -18,
+                "top": 498,
+                "zoom": 0.8333333333333335
               },
               "icon": "lucide-file-text",
               "title": "2404.08471v1"
@@ -385,10 +385,10 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "59b908bd7701be2e",
+  "active": "8226aeb9e210f93b",
   "lastOpenFiles": [
-    "Paper/2404.08471.md",
     "Paper/PDF/2404.08471v1.pdf",
+    "Paper/2404.08471.md",
     "Paper/PDF/2506.09985v1.pdf",
     "Paper/2506.09985.md",
     "Bases/Paper.base",
