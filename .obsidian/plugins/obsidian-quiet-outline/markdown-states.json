@@ -67,15 +67,15 @@
   "Lecture/Digital Image Processing.md": {
     "cursor": {
       "from": {
-        "line": 453,
-        "ch": 28
+        "line": 82,
+        "ch": 54
       },
       "to": {
-        "line": 453,
-        "ch": 28
+        "line": 82,
+        "ch": 54
       }
     },
-    "scroll": 442.8382161458333
+    "scroll": 70.51062041564792
   },
   "Paper/2602.15397.md": {
     "cursor": {
@@ -187,15 +187,15 @@
   "Lecture/Deep Learning.md": {
     "cursor": {
       "from": {
-        "line": 243,
-        "ch": 0
+        "line": 211,
+        "ch": 31
       },
       "to": {
-        "line": 243,
-        "ch": 0
+        "line": 211,
+        "ch": 31
       }
     },
-    "scroll": 259.3230794270833
+    "scroll": 184.9133993968117
   },
   "Paper/2602.04215.md": {
     "expandedKeys": [],
@@ -315,12 +315,12 @@
   "Paper/2506.09985.md": {
     "cursor": {
       "from": {
-        "line": 30,
-        "ch": 72
+        "line": 19,
+        "ch": 10
       },
       "to": {
-        "line": 30,
-        "ch": 72
+        "line": 19,
+        "ch": 10
       }
     },
     "scroll": 0
@@ -340,23 +340,24 @@
   "Paper/1706.03762.md": {
     "cursor": {
       "from": {
-        "line": 18,
-        "ch": 13
+        "line": 271,
+        "ch": 42
       },
       "to": {
-        "line": 18,
-        "ch": 13
+        "line": 271,
+        "ch": 42
       }
-    }
+    },
+    "scroll": 249.30245535714286
   },
   "Paper/2602.15922.md": {
     "cursor": {
       "from": {
-        "line": 13,
+        "line": 16,
         "ch": 0
       },
       "to": {
-        "line": 13,
+        "line": 16,
         "ch": 0
       }
     }
@@ -657,11 +658,11 @@
   "Paper/2508.21112.md": {
     "cursor": {
       "from": {
-        "line": 18,
+        "line": 20,
         "ch": 0
       },
       "to": {
-        "line": 18,
+        "line": 20,
         "ch": 0
       }
     }
@@ -682,26 +683,63 @@
   "Paper/2607.14635.md": {
     "cursor": {
       "from": {
-        "line": 45,
-        "ch": 0
+        "line": 42,
+        "ch": 66
       },
       "to": {
-        "line": 45,
-        "ch": 0
+        "line": 42,
+        "ch": 66
       }
     }
   },
   "Paper/2404.08471.md": {
     "cursor": {
       "from": {
-        "line": 42,
-        "ch": 46
+        "line": 25,
+        "ch": 215
       },
       "to": {
-        "line": 42,
-        "ch": 46
+        "line": 17,
+        "ch": 0
       }
     },
-    "scroll": 31.425978535353536
+    "scroll": 0
+  },
+  "Lecture/Machine Learning.md": {
+    "cursor": {
+      "from": {
+        "line": 261,
+        "ch": 42
+      },
+      "to": {
+        "line": 261,
+        "ch": 42
+      }
+    },
+    "scroll": 243.72376560566866
+  },
+  "Paper/2603.14482.md": {
+    "cursor": {
+      "from": {
+        "line": 17,
+        "ch": 0
+      },
+      "to": {
+        "line": 17,
+        "ch": 0
+      }
+    }
+  },
+  "Paper/2403.09631.md": {
+    "cursor": {
+      "from": {
+        "line": 20,
+        "ch": 0
+      },
+      "to": {
+        "line": 20,
+        "ch": 0
+      }
+    }
   }
 }

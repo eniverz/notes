@@ -84,7 +84,7 @@ e.g. ![[CS270_2026Fall_Lecture_02.pdf#page=33&rect=157,59,796,198]]
 - 8-adjacency: $p,q\in V,q\in N_8(p)$, p和q都在范围内, 并且q是p的8-neighbor
 - M-adjacency: $p,q\in V, (q\in N_4(p))\text{ or }(q\in N_D(p)\text{ and }N_4(p)\cap N_4(q)\not\in V)$, p和q都在范围内, 并且: 要么q是p的4-neighbor, 要么q是p的对角邻居且不能通过 4-neighbor 连接 (保证路径的唯一性)
 
-![[$CS270_2026Fall_Lecture_02.pdf#page=39&rect=57,112,927,440]]
+![[CS270_2026Fall_Lecture_02.pdf#page=39&rect=57,112,927,440]]
 
 M-adjacency的目的是, 8-adjacency会允许局部三角连接:
 ```

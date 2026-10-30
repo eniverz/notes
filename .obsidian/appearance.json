@@ -7,9 +7,9 @@
   "enabledCssSnippets": [
     "better-bullet-points-in-edit-mode",
     "tag-pills",
-    "enlarge-image-on-horver",
+    "pdf-list-indent-line",
     "image-cards",
-    "pdf-list-indent-line"
+    "enlarge-image-on-horver"
   ],
   "translucency": false,
   "showViewHeader": true,

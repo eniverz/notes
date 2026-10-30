@@ -45,12 +45,12 @@
             }
           },
           {
-            "id": "5570e2625fafd57d",
+            "id": "07ac03877e4973f2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Paper/2506.09985.md",
+                "file": "Paper/2603.14482.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -65,16 +65,26 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2506.09985"
+              "title": "2603.14482"
             }
           },
           {
-            "id": "8226aeb9e210f93b",
+            "id": "4c5a4fd6805a80a5",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "89c878e495b1a6ff",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Paper/2404.08471.md",
+                "file": "Paper/2607.14635.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -89,11 +99,131 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2404.08471"
+              "title": "2607.14635"
+            }
+          },
+          {
+            "id": "48f83d1d4da6b784",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Paper/1706.03762.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "1706.03762"
+            }
+          },
+          {
+            "id": "ffd5f36555b8b2d1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Paper/2508.21112.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "2508.21112"
+            }
+          },
+          {
+            "id": "e94d3ca66bebe40c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Paper/2403.09631.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "2403.09631"
+            }
+          },
+          {
+            "id": "72ed392a34cea58c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Paper/2602.15922.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "2602.15922"
+            }
+          },
+          {
+            "id": "14e5a6bc085e3f6b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Paper/2603.14482.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "2603.14482"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       },
       {
         "id": "c30f0f85faf98106",
@@ -107,7 +237,7 @@
               "state": {
                 "file": "Paper/PDF/2602.15922v1.pdf",
                 "page": 1,
-                "left": -65,
+                "left": -68,
                 "top": 842,
                 "zoom": 1.543401716178714
               },
@@ -116,40 +246,23 @@
             }
           },
           {
-            "id": "0a2b1fcae2a6a2f4",
+            "id": "08bf8a45bd10c662",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Paper/PDF/2506.09985v1.pdf",
-                "page": 8,
-                "left": -9,
+                "file": "Paper/PDF/2603.14482v3.pdf",
+                "page": 1,
+                "left": -8,
                 "top": 738,
-                "zoom": 1.775735294117647
+                "zoom": 1.7941176470588236
               },
               "icon": "lucide-file-text",
-              "title": "2506.09985v1"
-            }
-          },
-          {
-            "id": "59b908bd7701be2e",
-            "type": "leaf",
-            "dimension": 50,
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Paper/PDF/2404.08471v1.pdf",
-                "page": 18,
-                "left": -9,
-                "top": 511,
-                "zoom": 1.7941176470588234
-              },
-              "icon": "lucide-file-text",
-              "title": "2404.08471v1"
+              "title": "2603.14482v3"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -385,17 +498,26 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "8226aeb9e210f93b",
+  "active": "48f83d1d4da6b784",
   "lastOpenFiles": [
-    "Paper/PDF/2404.08471v1.pdf",
-    "Paper/2404.08471.md",
-    "Paper/PDF/2506.09985v1.pdf",
-    "Paper/2506.09985.md",
-    "Bases/Paper.base",
     "Paper/2607.14635.md",
+    "Paper/2508.21112.md",
+    "Paper/2603.14482.md",
+    "Paper/2403.09631.md",
+    "Paper/2602.15922.md",
+    "Lecture/Digital Image Processing.md",
+    "Paper/PDF/2603.14482v3.pdf",
+    "Paper/2506.09985.md",
+    "Paper/2404.08471.md",
+    "Paper/PDF/2602.15922v1.pdf",
+    "Paper/PDF/2506.09985v1.pdf",
+    "Paper/PDF/2404.08471v1.pdf",
+    "Lecture/Deep Learning.md",
+    "Lecture/Machine Learning.md",
+    "Paper/1706.03762.md",
+    "Bases/Paper.base",
     "Paper/2602.21445.md",
     "Paper/2602.10099.md",
-    "Paper/2508.21112.md",
     "Paper/pi0.6.md",
     "Paper/2603.03596.md",
     "Paper/2602.07322.md",
@@ -404,24 +526,16 @@
     "Paper/2512.04952.md",
     "Paper/2509.09372.md",
     "Paper/2506.01583.md",
-    "Paper/2602.15922.md",
     "Paper/PDF/2506.01583v2.pdf",
     "Paper/2411.19842.md",
     "Paper/2406.11838.md",
     "Paper/2309.15505.md",
     "Paper/2303.04137.md",
     "Paper/2111.06377.md",
-    "Paper/1706.03762.md",
     "Paper/1905.10650.md",
-    "Paper/2608.11739.md",
-    "Paper/2605.06388.md",
-    "Paper/2604.15483.md",
-    "Paper/2602.23408.md",
     "Paper/PDF/2602.10099v2.pdf",
-    "Paper/PDF/2602.15922v1.pdf",
     "Paper/PDF/2608.11739v1.pdf",
     "Paper/PDF/2604.15483v2.pdf",
-    "Paper/PDF/2603.03596v2.pdf",
     "Assets/Pasted image 20250819192014.png",
     "Assets/Pasted image 20230424103607.png",
     "Assets/fast-pipeline-crop.png",
